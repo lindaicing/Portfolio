@@ -1,0 +1,39 @@
+//Linda Huang
+//Figured out the discount at last and incorporated it into calcOrder
+//Elaborated visuals and further explained process
+
+
+-- HTML --
+Header - Introduces Cafe
+Section - Imagery and notice of discount
+Form - has name (f/l) linked to JS, phone, and quantity
+   - Displays other costs, discounts, and total
+Footer - Displays hours
+
+
+--- JS ---
+Function valFirstName() - Takes in and assigns first name from user input
+   - Passes user's input and a reguar function (between 2-15 letters) to compare()
+   - Also passes alert if user makes an error
+Function valLastName() - Takes in and assigns last name from user input
+   - Passes user's input and a reguar function (between 2-25 letters) to compare()
+   - Also passes alert if user makes an error
+Function valPhone() - Takes in and assigns phone number from user input
+   - Passes user's input and a reguar function (digits in phone structure) to compare()
+   - Also passes alert if user makes an error
+Function valQuant() - Takes in and assigns quatity from user input
+   - Passes user's input and a reguar function (digits from 1-99) to compare()
+   - Also passes alert if user makes an error
+
+function updateVisual() - makes things more interactive w/ user
+   - Text turns white after user interacts w/ it to show what fields they've completed
+
+function compare() - takes in values bool, inner, and phrase
+   - bool - compares the regular expression of the previous four 
+     functions to the user's inputs to check for correctness
+   - inner - locates the associated HTML
+   - phrase - the alert text that goes into the HTML
+
+Function calcOrder() - calculates the user's order and returns an alert box.
+   - Calculates discount using a loop counting down from the quantity the user inputted
+   - Also resets the discount after displaying to prevent int bleeding into next submission
