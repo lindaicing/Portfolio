@@ -115,13 +115,13 @@ a{
   color: #fff;
 }
 
-#resume{
+#resume, #email{
   color:#000;
   font-weight: bold;
   transition: 0.3s;
 }
 
-#resume:hover{
+#resume:hover, #email:hover{
   color: #e8d613;
   transition: 0.3s;
 }
@@ -193,12 +193,5 @@ img{
 }
 
 /*** Queries and Transitions ************************************/
-
-
-
-
-
-
-
 
 /***************************************/
