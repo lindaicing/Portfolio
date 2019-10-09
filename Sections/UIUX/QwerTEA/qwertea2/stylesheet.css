@@ -3,7 +3,7 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   text-align:center;
 
-  background-image: url("Images/pexels.png");
+  background-image: url("Images/pexels.PNG");
   background-repeat: repeat-y;
   background-size: cover;
   color: #fff;
