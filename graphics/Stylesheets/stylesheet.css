@@ -138,9 +138,16 @@ a {
     font-size: 0.8em;
 }
 
-.about {
+.about,
+.uiux {
     position: absolute;
     right: 40px;
+    font-size: 1.2em;
+}
+
+.uiux {
+    position: absolute;
+    right: 130px;
     font-size: 1.2em;
 }
 
