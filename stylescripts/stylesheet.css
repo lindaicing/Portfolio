@@ -8,6 +8,17 @@ body {
 
 .project {
     background: #1c1b1a;
+    padding: 0;
+}
+
+.projectContent div section {
+    max-width: 90vw;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.projectContent div {
+    padding: 0 80px 0 80px;
 }
 
 div {
@@ -399,16 +410,6 @@ header img {
     box-shadow: 10px 10px 20px #000, -10px -10px 20px #302f2d;
 }
 
-
-/* .gallery {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-    left: -100px;
-} */
-
 .projectContent .gallery {
     position: relative;
     display: flex;
@@ -416,6 +417,10 @@ header img {
     width: 100%;
     left: -100px;
     margin-bottom: 40px;
+}
+
+.gallery {
+    padding-left: 100px;
 }
 
 .gallery img {
