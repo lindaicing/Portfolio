@@ -79,7 +79,7 @@ nav ul {
     height: inherit;
     align-items: center;
     justify-content: flex-end;
-    margin-right: 100px;
+    margin-right: 80px;
 }
 
 nav ul li {
@@ -312,7 +312,7 @@ footer a:last-child {
 .logo,
 .sublogo {
     height: 38px;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 header img {
