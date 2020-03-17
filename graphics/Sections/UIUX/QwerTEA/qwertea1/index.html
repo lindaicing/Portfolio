@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Assignment 2</title>
+  <link href="reset.css" rel="stylesheet">
+  <link href="stylesheet.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis|Roboto+Condensed&display=swap" rel="stylesheet">
+
+  <script  type="text/javascript">
+    function calcOrder(){
+      const TAXRATE = 0.0825;
+      var user = document.getElementById("user").value; //name of user
+      var cost = document.getElementById("cost").value; //cost of a single item
+      var quantity = document.getElementById("quantity").value; //number of items
+
+      var beforeTax = cost*quantity; //cost of all items before tax
+      document.getElementById("beforeTax").value = parseFloat(beforeTax).toFixed(2);
+      var subTotal = (beforeTax * TAXRATE) + beforeTax;  //calculates total cost with tax
+
+      document.getElementById("subTotal").value = parseFloat(subTotal).toFixed(2);
+      alert("Hello "+user+"\nYour order of "+quantity+" drink package(s), totals "+parseFloat(subTotal).toFixed(2)+", including tax.");
+    }
+
+    function updateVisual(){
+      document.getElementById("user").style = "color:#fff;"
+      document.getElementById("quantity").style = "color:#fff;"
+      document.getElementById("beforeTax").style = "color:#fff;"
+      document.getElementById("subTotal").style = "color:#fff;"
+    }
+  </script>
+</head>
+
+<body>
+  <div>
+    <header>
+      <h1>QwerTEA</h1>
+      <h2>Cyber Cafe</h2>
+    </header>
+
+    <section>
+      <img src="Images/Boba.png" alt="Boba">
+      <p>House Milk Tea and 1hr of Internet</p>
+      <h2>$5.31</h2>
+      <input name="cost" id="cost" type="text" value="5.31">
+    </section>
+
+    <form action="" method="post" enctype="multipart/form-data" name="itemcalc">
+      <p>Name</p> <input name="user" id="user" type="text" value="Jimmy" size="26" maxlength="15"><br>
+      <p>Quantity</p> <input name="quantity" id="quantity" type="text" value="0" size="26" maxlength="3"><br>
+      <p>Order Summary</p> <input name="beforeTax" id="beforeTax" type="text" value="-" size="26" readonly="readonly"><br>
+      <p>Sub Total (8.25% Tax)</p> <input name="subTotal" id="subTotal" type="text" value="-" size="26" readonly="readonly"><br>
+    </form>
+
+    <p id="process" onclick="calcOrder(); updateVisual();">Process Order</p>
+
+    <footer>
+      <p>Open M-F 2PM-2AM</p>
+    </footer>
+  </div>
+</body>
+
+</html>

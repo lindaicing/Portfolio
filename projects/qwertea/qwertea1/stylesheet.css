@@ -1,0 +1,88 @@
+body {
+  margin: auto;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align:center;
+
+  background-image: url("Images/pexels.jpeg");
+  background-repeat: repeat-y;
+  background-size: cover;
+
+  color: #fff;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+header{
+  padding: 20px 0 20px 0;
+  margin-bottom:40px;
+  width:100%;
+  background: rgba(255,255,255,0.15);
+}
+
+form{
+  padding: 20px 0 20px 0;
+}
+
+input{
+  margin:10px 0 10px 0;
+  padding:5px;
+  background: transparent;
+  border: 1px solid #888;
+  color:#aaa;
+}
+
+#cost{
+  display: none;
+}
+
+#process{
+  font-family: 'Dosis', sans-serif;
+  padding:12px;
+  background:rgba(255,255,255,0.2);
+  color:#fff;
+  border-radius: 8px;
+}
+
+/** Typography ******************/
+h1{
+  font-family: 'Dosis', sans-serif;
+  font-size: 40px;
+}
+
+h2{
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+form p{
+  font-size: 14px;
+  padding-top: 5px;
+  text-align: left;
+}
+
+/** Selection *******************/
+img{
+  width:100px;
+  padding-bottom: 20px;
+  opacity: 0.85;
+}
+
+footer{
+  margin-top: 40px;
+  padding:20px;
+  width:100%;
+  background: rgba(255,255,255,0.15);
+}
+/** Selection *******************/
+::selection {
+  background: #ff951c;
+  color:#fff;
+}
+::-moz-selection {
+  background: #ff951c;
+  color:#fff;
+}

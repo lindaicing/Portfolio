@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Linda's Portfolio</title>
+    <link rel="icon" href="../about/logo.png">
+    <link href="../stylescripts/reset.css" rel="stylesheet">
+    <link href="../stylescripts/stylesheet.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Assistant|Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7d54d2caeb.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../stylescripts/script.js"></script>
+</head>
+
+<body id="sift" class="project">
+    <div>
+        <header>
+            <img src="nba2k/nba5.png" alt="Header Image">
+            <h1>NBA 2k Season 2 Team Standings</h1>
+            <p>Site layout for easy player ranking and analysis of the NBA 2K Season 2 teams</p>
+        </header>
+
+        <nav>
+            <a href="../index.html"><img src="../about/logo-black.png" alt="Logo" class="sublogo"></a>
+            <ul>
+                <li class="darkmode"><i class="fas fa-moon"></i><i class="fas fa-sun" style="display:none;"></i></li>
+                <li><a href="#">Graphics</a></li>
+                <li><a href="../about.html">About</a></li>
+            </ul>
+        </nav>
+
+        <div class="projectContent">
+            <div>
+                <section>
+                    <h3>Overview</h3>
+                    <p>This project displays the ranking and statistics of the E-Gaming NBA 2K League. The project provides information in a neat and easily readable format. The project won the award for best UI/UX at SacHacks in February 2020. The project
+                        was coded in 24 Hours and we were given a prompt which can be found <a href="nba2k/sachacks2020tracks.pdf" target="_blank">here</a>. We chose the prompt to analyze data for the Sacramento Kings (prompt 1).</p>
+                    <p>I worked on the front end and visual development. Photoshopped photos and set up some photos. Created mockups and set sizing/spacing. Ensured visual consistency and adopted branding of 2K site. Developed the CSS and some of the JavaScript
+                        (using vanilla and JQuery).</p>
+                    <p class="important"><a href="https://apstarwars.github.io/SacHacks-2020/" target="_blank">Try it Live!</a></p>
+                    <p class="important"><a href="https://devpost.com/software/nba-2k-season-2-team-standings" target="_blank">Devpost</a></p>
+                </section>
+                <section>
+                    <h3>Prompt</h3>
+                    <p>We were given prompts as tracks to follow for SacHacks. Provided stats and our research, we were to provide any or all of the following:</p>
+                    <ul>
+                        <li>Create a player model that ranks all league 126 players in terms of their skill, contribution towards winning, etc.</li>
+                        <li>Looking at Kings Guard Gaming specifically, what were our team’s biggest strengths/weaknesses? How did our team and players rank among the league?</li>
+                        <li>Any other unique findings from looking at data and information?</li>
+                    </ul>
+                    <p class="important"><a href="nba2k/sachacks2020tracks.pdf" target="_blank">Full Prompts</a></p>
+                </section>
+                <section>
+                    <h3>Approach and Research</h3>
+                    <p>Coming up with an idea was difficult, and we took a while choosing which track to proceed with. After determining our route, we started brainstorming the back-end and front-end approaches. I started developing visuals based on the
+                        official NBA 2K site, pulling the dark blues from the webpage, and bold red and blue from the NBA logo.</p>
+                    <section class="gallery">
+                        <img src="nba2k/nba1.png" alt="NBA1">
+                        <img src="nba2k/nba2.png" alt="NBA2">
+                        <img src="nba2k/nba3.png" alt="NBA3">
+                    </section>
+                    <h4>Development</h4>
+                    <p>I started mocking up front-end using Adobe XD. After that was completed I translated the mockup into code. While my team worked on the back-end, I ensured the coded site was fluid to the user. Below are coded version of the incompleted
+                        players page and finished team page.</p>
+                    <section class="gallery">
+                        <img src="nba2k/nba4.png" alt="NBA4">
+                        <img src="nba2k/nba5.png" alt="NBA5">
+                    </section>
+                    <p>Rankings are based on the Player Efficiency Rating calculated by a back-end Python formula, which roughly determines how well or poorly each player/team performed in the NBA 2k Second Season. From there, we were able to highlight players
+                        who did not perform as successfully. Players with red stats had less desirable scores. Both teams and players were ranked. In the future we are hoping to include statistics that show each player and team's winnings.</p>
+                </section>
+                <section>
+                    <h3>Final Product</h3>
+                    <iframe width="800" height="430" src="https://www.youtube.com/embed/k5Zr6NeLKXE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+            </div>
+        </div>
+
+        <footer>
+            <p>Linda Huang 2020</p>
+            <p>
+                <a href="https://www.instagram.com/lindaicings/"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/lindaicing"><i class="fab fa-github"></i></a>
+                <a href="https://devpost.com/Lindaicing"><i class="fas fa-code"></i></a>
+                <a href="https://www.linkedin.com/in/lindaicing/"><i class="fab fa-linkedin"></i></a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>

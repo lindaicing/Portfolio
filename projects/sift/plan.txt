@@ -1,0 +1,27 @@
+This file should hold our plan.
+
+Name: Sift
+
+Research: "Walter Burke Barbe and colleagues proposed three learning modalities (often identified by the acronym VAK)."
+These include the Visualising, Auditory, and Kinesthetic modalities. We want to develop a site that allows a user to search for terms, and have the results be presented according to their preferred learning modality.
+Our product is named Sift, which references the "sifting" of information. It is also an acronym for "Styles in Finding Things."
+
+Audience: Our audience are college students that don't learn well in traditional classroom lecture environments, or want to conduct further research on topics that accomodate to their particular learning styles. 
+
+
+To run:
+1. cd src
+2. ./init_flask.sh
+3. Go to http://127.0.0.1:5000
+
+TODO:
+- Linking everything together
+- UI
+- Visual Updating
+- Visual Changes
+- Put stuff into database (data.csv)
+- Support/About page fix
+- Button to add links
+
+Nice to Have:
+- ?

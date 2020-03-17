@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Assignment 7</title>
+  <link href="reset.css" rel="stylesheet">
+  <link href="stylesheet.css" rel="stylesheet">
+  <script src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Dosis|Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div>
+    <header>
+      <h1>QwerTEA</h1>
+      <h2>Cyber Cafe Grand Opening!</h2>
+    </header>
+
+    <section>
+      <img id="boba" src="images/Boba.png" alt="Boba">
+      <p>For every 10 teas ordered, you get 10% off</p>
+      <p id="notice">*Discounts are applied before taxes.</p>
+    </section>
+
+
+    <form action="" method="post" encrypt="multipart/form-data" name="teaCalc">
+      <p>
+        <input name="fname" id="fname" type="text" size="20" value="Jimmy" onblur="valFirstName();">
+        <span id="firstPrompt"> First Name</span>
+      </p>
+
+      <p>
+        <input name="lname" id="lname" type="text" size="20" value="Doe" onblur="valLastName();">
+        <span id="lastPrompt"> Last Name</span>
+      </p>
+
+      <p>
+        <input name="phone" id="phone" type="text" size="20" value="000-000-0000" onblur="valPhone();">
+        <span id="pPrompt"> Phone number</span>
+      </p>
+
+      <p>
+        <input name="quantity" id="quantity" type="text" size="20" value="0" onblur="valQuant();">
+        <span id="qPrompt"> QuantiTea - max. order 50</span>
+      </p>
+
+      <p><input name="cost" id="cost" type="text" size="20" readonly="readonly" value="4.95" style="color:#fff;"> Cost per tea</p>
+
+      <p><input name="disc" id="disc" type="text" size="20" readonly="readonly" value=" -"> Grand Opening Discount</p>
+
+      <p><input name="costExt" id="costExt" type="text" size="20" readonly="readonly" value=" -"> Total with tax and discounts</p>
+    </form>
+
+    <p><span id="process" onclick="calcOrder();">Process Order</span></p>
+
+    <footer>
+      <p>Open M-F 2PM-2AM</p>
+    </footer>
+  </div>
+</body>
+
+</html>
