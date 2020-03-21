@@ -219,6 +219,10 @@ footer {
     color: #DCDCDC;
 }
 
+nav ul li a {
+    font-size: 11pt;
+}
+
 a,
 .darkmode {
     color: #1c1b1a;
@@ -255,17 +259,17 @@ a:hover,
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 30pt;
     margin-bottom: 40px;
 }
 
 #home header p,
 #about header p {
-    font-size: 1.2em;
+    font-size: 18pt;
 }
 
 h3 {
-    font-size: 1.4em;
+    font-size: 24pt;
     margin-bottom: 20px;
     padding-bottom: 10px;
     border-bottom: 4px solid rgba(150, 150, 150, 0.5);
@@ -276,15 +280,15 @@ h3 {
 }
 
 h4 {
-    font-size: 1.2em;
+    font-size: 18pt;
     margin-bottom: 20px;
 }
 
 p,
 .projectContent ul {
     color: #777;
-    font-size: 1em;
-    line-height: 1.35em;
+    font-size: 11pt;
+    line-height: 18pt;
     margin-bottom: 20px;
 }
 
@@ -299,7 +303,7 @@ p,
 
 footer p {
     padding: 60px 0 100px 100px;
-    line-height: 2em;
+    line-height: 24pt;
 }
 
 footer a:last-child {
