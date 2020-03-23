@@ -11,7 +11,9 @@ body {
     padding: 0;
 }
 
-.projectContent div section {
+.projectContent div section,
+#home header,
+#about header {
     max-width: 90vw;
     margin-left: 0;
     margin-right: 0;
@@ -99,6 +101,11 @@ header {
     align-items: center;
     overflow: hidden;
     background: #DCDCDC;
+}
+
+#home header,
+#about header {
+    align-items: flex-start;
 }
 
 .project header {
@@ -203,14 +210,6 @@ footer {
 
 
 /** Typography ************************************************************************************/
-
-#home header h1,
-#about header h1,
-#home header p,
-#about header p {
-    align-self: center;
-    width: 1024px;
-}
 
 .project header h1,
 .project .projectSecDark header h1,
@@ -450,6 +449,14 @@ header img {
     .projectModule section {
         width: 90vw;
     }
+    .projectModule a img {
+        width: 100%;
+        height: auto;
+    }
+    .projectModule h2 {
+        position: relative;
+        top: -40vw;
+    }
     header img {
         height: 70vh;
         width: auto;
@@ -461,6 +468,33 @@ header img {
     iframe {
         width: 100%;
         height: 50vw;
+    }
+    #aboutMe {
+        display: flex;
+        flex-flow: column wrap;
+        max-width: 80vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #profile {
+        width: 50vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .projectModule section a {
+        height: inherit;
+    }
+    .projectModule section a img {
+        width: auto;
+        height: 100%;
+    }
+    .projectModule h2 {
+        top: -220px;
+    }
+    #profile {
+        width: 100%;
     }
 }
 
