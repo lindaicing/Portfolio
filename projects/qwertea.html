@@ -13,7 +13,7 @@
     <script src="../stylescripts/script.js"></script>
 </head>
 
-<body id="sift" class="project">
+<body id="qwertea" class="project">
     <div>
         <header>
             <img src="qwertea/qwertea1.png" alt="Header Image">
@@ -22,11 +22,11 @@
         </header>
 
         <nav>
-            <a href="../index.html"><img src="../about/logo-black.png" alt="Logo" class="sublogo"></a>
+            <a href="../index.html"><img src="../about/logo-white.png" alt="Logo" class="sublogo"></a>
             <ul>
-                <li class="darkmode"><i class="fas fa-moon"></i><i class="fas fa-sun" style="display:none;"></i></li>
-                <li><a href="../graphics/graphics.html">Graphics</a></li>
-                <li><a href="../about.html">About</a></li>
+                <li class="darkmode projectSecDark"><i class="fas fa-moon"></i><i class="fas fa-sun" style="display:none;"></i></li>
+                <li class="projectSecDark"><a href="../graphics/graphics.html">Graphics</a></li>
+                <li class="projectSecDark"><a href="../about.html">About</a></li>
             </ul>
         </nav>
 
@@ -69,5 +69,18 @@
         </footer>
     </div>
 </body>
+
+<script>
+    window.onload = function() {
+        document.getElementById("qwertea1").onclick = function(evt) {
+            window.open("qwertea/qwertea1/index.html", "QwerTEA Cafe", 'menubar=1,height=800,width=400');
+            return false;
+        }
+        document.getElementById("qwertea2").onclick = function(evt) {
+            window.open("qwertea/qwertea2/index.html", "QwerTEA Cafe", 'menubar=1,height=800,width=400');
+            return false;
+        }
+    };
+</script>
 
 </html>

@@ -5,8 +5,7 @@ $(document).ready(function() { //JQuery code goes here
         "display": "none"
     })
 
-    //Darkmode
-    $(".darkmode").click(function() {
+    $(".darkmode").click(function() { //Darkmode
         if (lightmode) {
             $("#home, #about, #home header, #about header, .projectContent a, .projectContent, footer, footer a, ooter a i").css({
                 "background": "#DCDCDC",
@@ -36,7 +35,7 @@ $(document).ready(function() { //JQuery code goes here
         lightmode = !lightmode;
     });
 
-    $(function() {
+    $(function() { //Nav color change
         $(window).scroll(function() {
             if ($(this).scrollTop() >= 300) {
                 $(".project nav li").removeClass("projectSecDark")
@@ -49,14 +48,3 @@ $(document).ready(function() { //JQuery code goes here
         });
     });
 })
-
-window.onload = function() {
-    document.getElementById("qwertea1").onclick = function(evt) {
-        window.open("qwertea/qwertea1/index.html", "QwerTEA Cafe", 'menubar=1,height=800,width=400');
-        return false;
-    }
-    document.getElementById("qwertea2").onclick = function(evt) {
-        window.open("qwertea/qwertea2/index.html", "QwerTEA Cafe", 'menubar=1,height=800,width=400');
-        return false;
-    }
-};
