@@ -313,12 +313,14 @@ p,
 }
 
 footer p {
-    padding: 60px 0 100px 0;
+    padding: 60px 0 0 0;
     line-height: 24pt;
 }
 
-footer a:last-child {
-    padding: 60px 0 100px 0;
+footer p:last-child {
+    min-width: 100px;
+    align-items: right;
+    text-align: end;
 }
 
 
