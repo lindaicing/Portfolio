@@ -123,12 +123,12 @@ header {
 }
 
 .projectModule section {
-    width: 490px;
+    width: 540px;
     height: 350px;
     text-align: center;
     align-items: center;
     overflow: hidden;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     border-radius: 30px;
     background: #1c1b1a;
     box-shadow: 0px 0px 0px #dadada, -0px -0px 0px #dedede;
@@ -276,6 +276,7 @@ h1 {
 #about header p {
     font-size: 18pt;
     line-height: 26pt;
+    max-width: 80%;
 }
 
 h3 {
@@ -451,9 +452,18 @@ header img {
 
 /** Queries ***************************************************************************************/
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1400px) {
     .projectModule {
         justify-content: space-around;
+    }
+    .projectModule section {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .projectModule section {
+        width: 400px;
     }
 }
 
