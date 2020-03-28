@@ -205,9 +205,16 @@ section {
 
 footer {
     display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #DCDCDC;
+}
+
+footer section {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     width: 80%;
-    background: #DCDCDC;
 }
 
 
