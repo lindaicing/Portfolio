@@ -37,7 +37,7 @@ nav {
     position: fixed;
     align-items: center;
     justify-content: space-between;
-    z-index: 1;
+    z-index: 2;
 }
 
 nav li,
@@ -416,7 +416,8 @@ header img {
     /* custom */
 }
 
-#profile {
+#profile,
+#profile2 {
     position: relative;
     width: 490px;
     border-radius: 30px;
@@ -424,7 +425,38 @@ header img {
     margin: 0 60px 60px 0;
 }
 
-#profile.projectSecDark {
+#profile {
+    position: absolute;
+    z-index: 1;
+    opacity: 1;
+    -webkit-transition: all 240ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
+    -moz-transition: all 240ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
+    -o-transition: all 240ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
+    transition: all 240ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
+    /* custom */
+    -webkit-transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
+    -moz-transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
+    -o-transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
+    transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
+    /* custom */
+}
+
+#profile:hover {
+    opacity: 0;
+    -webkit-transition: all 240ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
+    -moz-transition: all 240ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
+    -o-transition: all 240ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
+    transition: all 240ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
+    /* custom */
+    -webkit-transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
+    -moz-transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
+    -o-transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
+    transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
+    /* custom */
+}
+
+#profile.projectSecDark,
+#profile2.projectSecDark {
     box-shadow: 10px 10px 20px #000, -10px -10px 20px #302f2d;
 }
 
@@ -456,7 +488,7 @@ header img {
 
 @media only screen and (max-width: 1400px) {
     .projectModule {
-        justify-content: space-around;
+        justify-content: space-between;
     }
     .projectModule section {
         width: 500px;
@@ -464,6 +496,12 @@ header img {
 }
 
 @media only screen and (max-width: 1300px) {
+    .projectModule section {
+        width: 460px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
     .projectModule section {
         width: 400px;
     }
@@ -506,8 +544,13 @@ header img {
         height: 100%;
         width: auto;
     }
-    #profile {
+    #profile,
+    #profile2 {
         width: 50vw;
+    }
+    .projectContent div {
+        margin: 0;
+        padding: 0;
     }
 }
 

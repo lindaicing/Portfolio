@@ -14,7 +14,7 @@ $(document).ready(function() { //JQuery code goes here
             $(".project").css({ "color": "#1c1b1a" })
             $(".fa-moon").css({ "display": "inline" })
             $(".fa-sun").css({ "display": "none" })
-            $(".projectModule, nav li, .important, #profile").removeClass("projectSecDark")
+            $(".projectModule, nav li, .important, #profile, #profile2").removeClass("projectSecDark")
             $(".logo").attr("src", "about/logo-black.png");
             $(".sublogo").attr("src", "../about/logo-black.png");
             $(".credits").css({ "color": "#fff" });
@@ -26,7 +26,7 @@ $(document).ready(function() { //JQuery code goes here
             $(".project").css({ "color": "#DCDCDC" })
             $(".fa-moon").css({ "display": "none" })
             $(".fa-sun").css({ "display": "inline" })
-            $(".projectModule, nav li, .important, #profile").addClass("projectSecDark")
+            $(".projectModule, nav li, .important, #profile, #profile2").addClass("projectSecDark")
             $(".logo").attr("src", "about/logo-white.png");
             $(".sublogo").attr("src", "../about/logo-white.png");
             $(".credits").css({ "color": "#545454" });
