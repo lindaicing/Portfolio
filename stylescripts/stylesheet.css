@@ -565,7 +565,8 @@ header img {
     .projectModule h2 {
         top: -220px;
     }
-    #profile {
+    #profile,
+    #profile2 {
         width: 100%;
     }
 }
