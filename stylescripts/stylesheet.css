@@ -556,6 +556,9 @@ header img {
 }
 
 @media only screen and (max-width: 725px) {
+    nav ul {
+        margin-right: 50px;
+    }
     .projectModule section a {
         height: inherit;
     }
@@ -568,7 +571,7 @@ header img {
     }
     #profile,
     #profile2 {
-        width: 65vw;
+        width: 80vw;
     }
 }
 
@@ -599,7 +602,8 @@ nav .projectSecDark:hover,
 }
 
 .projectSecDark a:hover,
-nav .projectSecDark:hover a {
+nav .projectSecDark:hover a,
+.darkmode:hover .fa-sun {
     color: #FFDB58;
 }
 
