@@ -164,6 +164,10 @@ header {
     background: #DCDCDC;
 }
 
+.projectContent section:last-child {
+    margin-bottom: 0;
+}
+
 #about .projectContent {
     padding-top: 0;
 }
@@ -186,21 +190,18 @@ section {
     margin-bottom: 120px;
 }
 
-.projectContent section:last-child,
-#about .projectContent section:last-child {
-    margin-bottom: 0px;
-}
-
-#about .projectContent section {
-    margin-bottom: 60px;
-}
-
 #aboutMe {
     flex-direction: row;
 }
 
-#aboutMe section {
-    margin: 0;
+#skills {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+section#aboutMe,
+section#aboutMe section {
+    margin-bottom: 0px;
 }
 
 footer {
@@ -423,12 +424,6 @@ header img {
     border-radius: 30px;
     box-shadow: 10px 10px 20px #9a9a9a, -10px -10px 20px #ffffff;
     margin: 0 60px 60px 0;
-}
-
-#profile {
-    position: absolute;
-    z-index: 1;
-    opacity: 1;
     -webkit-transition: all 240ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
     -moz-transition: all 240ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
     -o-transition: all 240ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
@@ -439,6 +434,12 @@ header img {
     -o-transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
     transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
     /* custom */
+}
+
+#profile {
+    position: absolute;
+    z-index: 1;
+    opacity: 1;
 }
 
 #profile:hover {
@@ -535,7 +536,7 @@ header img {
     #skills {
         display: flex;
         flex-flow: column wrap;
-        max-width: 80%;
+        margin-bottom: 0;
     }
 }
 
@@ -554,7 +555,7 @@ header img {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 725px) {
     .projectModule section a {
         height: inherit;
     }
@@ -567,7 +568,7 @@ header img {
     }
     #profile,
     #profile2 {
-        width: 100%;
+        width: 65vw;
     }
 }
 
