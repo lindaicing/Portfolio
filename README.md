@@ -1,4 +1,4 @@
 # Portfolio
 Portfolio of Linda Huang
 
-Loves :dog: :coffee: and :seedling:
+Loves :dog: :coffee: :tea: :seedling:
