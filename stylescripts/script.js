@@ -40,10 +40,12 @@ $(document).ready(function() { //JQuery code goes here
             if ($(this).scrollTop() >= 300) {
                 $(".project nav li").removeClass("projectSecDark")
                 $(".sublogo").attr("src", "../about/logo-black.png");
+                $(".graphics .sublogo").attr("src", "../../../about/logo-black.png");
             }
             if ($(this).scrollTop() < 300) {
                 $(".project nav li").addClass("projectSecDark")
                 $(".sublogo").attr("src", "../about/logo-white.png");
+                $(".graphics .sublogo").attr("src", "../../../about/logo-white.png");
             }
         });
     });
