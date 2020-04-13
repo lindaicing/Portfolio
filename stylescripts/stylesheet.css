@@ -484,6 +484,21 @@ header img {
     height: auto;
 }
 
+section.webMockup {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.webMockup img {
+    padding: 0;
+    margin: 0;
+    padding-right: 40px;
+}
+
 
 /** Queries ***************************************************************************************/
 
