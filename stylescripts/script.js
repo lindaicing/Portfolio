@@ -17,6 +17,7 @@ $(document).ready(function() { //JQuery code goes here
             $(".projectModule, nav li, .important, #profile, #profile2").removeClass("projectSecDark")
             $(".logo").attr("src", "about/logo-black.png");
             $(".sublogo").attr("src", "../about/logo-black.png");
+            $(".graphics .sublogo").attr("src", "../../../about/logo-black.png");
             $(".credits").css({ "color": "#fff" });
         } else {
             $("#home, #about, #home header, #about header, .projectContent a, .projectContent, footer, footer a, footer a i").css({
@@ -29,10 +30,16 @@ $(document).ready(function() { //JQuery code goes here
             $(".projectModule, nav li, .important, #profile, #profile2").addClass("projectSecDark")
             $(".logo").attr("src", "about/logo-white.png");
             $(".sublogo").attr("src", "../about/logo-white.png");
+            $(".graphics .sublogo").attr("src", "../../../about/logo-white.png");
             $(".credits").css({ "color": "#545454" });
         }
         $(".important a, footer a").css({ "background": "none" })
         lightmode = !lightmode;
+        if ($(this).scrollTop() < 300) {
+            $(".project nav li").addClass("projectSecDark")
+            $(".sublogo").attr("src", "../about/logo-white.png");
+            $(".graphics .sublogo").attr("src", "../../../about/logo-white.png");
+        }
     });
 
     $(function() { //Nav color change
