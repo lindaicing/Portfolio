@@ -11,9 +11,7 @@ body {
     padding: 0;
 }
 
-.projectContent div section,
-#home header,
-#about header {
+.projectContent div section, #home header, #about header {
     max-width: 90vw;
     margin-left: 0;
     margin-right: 0;
@@ -40,8 +38,7 @@ nav {
     z-index: 2;
 }
 
-nav li,
-.important {
+nav li, .important {
     padding: 12px;
     background: rgba(210, 200, 200, 1);
     border-radius: 30px;
@@ -58,8 +55,7 @@ nav li,
     /* custom */
 }
 
-nav li:hover,
-.important:hover {
+nav li:hover, .important:hover {
     background: rgba(230, 220, 220, 1);
     box-shadow: 0px 0px 20px rgba(154, 154, 154, 0.5);
     -webkit-transition: all 300ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
@@ -103,8 +99,7 @@ header {
     background: #DCDCDC;
 }
 
-#home header,
-#about header {
+#home header, #about header {
     align-items: flex-start;
     width: 80%;
 }
@@ -199,8 +194,7 @@ section {
     margin-bottom: 0px;
 }
 
-section#aboutMe,
-section#aboutMe section {
+section#aboutMe, section#aboutMe section {
     margin-bottom: 0px;
 }
 
@@ -221,10 +215,7 @@ footer section {
 
 /** Typography ************************************************************************************/
 
-.project header h1,
-.project .projectSecDark header h1,
-.project header p,
-.project .projectSecDark p {
+.project header h1, .project .projectSecDark header h1, .project header p, .project .projectSecDark p {
     text-align: center;
     color: #DCDCDC;
 }
@@ -233,8 +224,7 @@ nav ul li a {
     font-size: 11pt;
 }
 
-a,
-.darkmode {
+a, .darkmode {
     color: #1c1b1a;
     text-decoration: none;
     -webkit-transition: all 300ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
@@ -249,8 +239,7 @@ a,
     /* custom */
 }
 
-a:hover,
-.darkmode:hover {
+a:hover, .darkmode:hover {
     color: grey;
     -webkit-transition: all 100ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
     -moz-transition: all 100ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
@@ -273,8 +262,7 @@ h1 {
     margin-bottom: 40px;
 }
 
-#home header p,
-#about header p {
+#home header p, #about header p {
     font-size: 18pt;
     line-height: 26pt;
     max-width: 80%;
@@ -296,8 +284,7 @@ h4 {
     margin-bottom: 20px;
 }
 
-p,
-.projectContent ul {
+p, .projectContent ul {
     color: #777;
     font-size: 11pt;
     line-height: 18pt;
@@ -327,8 +314,7 @@ footer p:last-child {
 
 /** Images, Media, Button ******************************************************************************/
 
-.logo,
-.sublogo {
+.logo, .sublogo {
     height: 38px;
     margin-left: 10vw;
 }
@@ -417,8 +403,7 @@ header img {
     /* custom */
 }
 
-#profile,
-#profile2 {
+#profile, #profile2 {
     position: relative;
     width: 490px;
     border-radius: 30px;
@@ -456,8 +441,7 @@ header img {
     /* custom */
 }
 
-#profile.projectSecDark,
-#profile2.projectSecDark {
+#profile.projectSecDark, #profile2.projectSecDark {
     box-shadow: 10px 10px 20px #000, -10px -10px 20px #302f2d;
 }
 
@@ -547,8 +531,7 @@ section.webMockup {
         width: 100%;
         height: 50vw;
     }
-    #aboutMe,
-    #skills {
+    #aboutMe, #skills {
         display: flex;
         flex-flow: column wrap;
         margin-bottom: 0;
@@ -560,8 +543,7 @@ section.webMockup {
         height: 100%;
         width: auto;
     }
-    #profile,
-    #profile2 {
+    #profile, #profile2 {
         width: 50vw;
     }
     .projectContent div {
@@ -584,8 +566,7 @@ section.webMockup {
     .projectModule h2 {
         top: -220px;
     }
-    #profile,
-    #profile2 {
+    #profile, #profile2 {
         width: 80vw;
     }
 }
@@ -593,9 +574,7 @@ section.webMockup {
 
 /** DarkMode ***************************************************************************************/
 
-.projectSecDark section,
-nav .projectSecDark,
-.important.projectSecDark {
+.projectSecDark section, nav .projectSecDark, .important.projectSecDark {
     background: #2c2b2a;
     box-shadow: 0px 0px 0px #000, -0px -0px 0px #302f2d;
 }
@@ -605,20 +584,16 @@ nav .projectSecDark,
     box-shadow: 10px 10px 20px #000, -10px -10px 40px #302f2d;
 }
 
-nav .projectSecDark:hover,
-.important.projectSecDark:hover {
+nav .projectSecDark:hover, .important.projectSecDark:hover {
     background: #2c2b2a;
     box-shadow: 3px 3px 10px #000, -3px -3px 20px #302f2d;
 }
 
-.projectSecDark a,
-.darkmode.projectSecDark {
+.projectSecDark a, .darkmode.projectSecDark {
     color: #DCDCDC;
 }
 
-.projectSecDark a:hover,
-nav .projectSecDark:hover a,
-.darkmode:hover .fa-sun {
+.projectSecDark a:hover, nav .projectSecDark:hover a, .darkmode:hover .fa-sun {
     color: #FFDB58;
 }
 
@@ -668,9 +643,7 @@ nav .projectSecDark:hover a,
     z-index: 1;
 }
 
-.bmc-button:hover,
-.bmc-button:active,
-.bmc-button:focus {
+.bmc-button:hover, .bmc-button:active, .bmc-button:focus {
     -webkit-box-shadow: 0px 1px 2px 2px #0a3261 !important;
     text-decoration: none !important;
     box-shadow: 0px 1px 2px 2px #0a3261 !important;
