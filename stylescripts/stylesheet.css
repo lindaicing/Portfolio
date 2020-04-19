@@ -468,6 +468,10 @@ header img {
     height: auto;
 }
 
+p .emoji {
+    height: 15px;
+}
+
 section.webMockup {
     display: flex;
     flex-direction: row;
