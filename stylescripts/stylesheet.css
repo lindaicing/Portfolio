@@ -427,13 +427,13 @@ img#profile, #profile2 {
     /* custom */
 }
 
-#profile {
+img#profile {
     position: absolute;
     z-index: 1;
     opacity: 1;
 }
 
-#profile:hover {
+img#profile:hover {
     opacity: 0;
     -webkit-transition: all 240ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
     -moz-transition: all 240ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
