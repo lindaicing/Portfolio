@@ -427,6 +427,10 @@ img#profile, #profile2 {
     /* custom */
 }
 
+#profile2 {
+    position: absolute;
+}
+
 img#profile {
     position: absolute;
     z-index: 1;
