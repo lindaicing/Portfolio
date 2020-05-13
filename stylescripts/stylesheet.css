@@ -434,6 +434,7 @@ img#profile {
     position: absolute;
     z-index: 1;
     opacity: 1;
+    width: 490px;
 }
 
 img#profile:hover {
