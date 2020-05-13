@@ -407,7 +407,7 @@ header img {
     /* custom */
 }
 
-#profile, #profile2 {
+img#profile, #profile2 {
     display: block;
     overflow: visible;
     position: relative;
@@ -544,7 +544,7 @@ section.webMockup {
         height: 100%;
         width: auto;
     }
-    #profile, #profile2 {
+    img#profile, #profile2 {
         width: 50vw;
     }
     .projectContent div {
@@ -567,7 +567,7 @@ section.webMockup {
     .projectModule h2 {
         top: -220px;
     }
-    #profile, #profile2 {
+    img#profile, #profile2 {
         width: 80vw;
     }
 }
