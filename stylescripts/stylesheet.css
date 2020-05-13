@@ -410,7 +410,6 @@ header img {
 img#profile, #profile2 {
     display: block;
     overflow: visible;
-    position: relative;
     width: 490px;
     border-radius: 30px;
     box-shadow: 10px 10px 20px #9a9a9a, -10px -10px 20px #ffffff;
@@ -428,7 +427,7 @@ img#profile, #profile2 {
 }
 
 #profile2 {
-    position: absolute;
+    position: relative;
 }
 
 img#profile {
@@ -547,9 +546,6 @@ section.webMockup {
     header img {
         height: 100%;
         width: auto;
-    }
-    img#profile, #profile2 {
-        width: 50vw;
     }
     .projectContent div {
         margin: 0;
