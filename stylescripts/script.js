@@ -33,7 +33,7 @@ $(document).ready(function() { //JQuery code goes here
             $(".graphics .sublogo").attr("src", "../../../about/logo-white.png");
             $(".credits").css({ "color": "#545454" });
         }
-        $(".important a, footer a").css({ "background": "none" })
+        $(".important a, footer a, footer a i").css({ "background": "none" })
         lightmode = !lightmode;
         if ($(this).scrollTop() < 300) {
             $(".project nav li").addClass("projectSecDark")
