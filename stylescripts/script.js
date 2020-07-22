@@ -7,7 +7,7 @@ $(document).ready(function() { //JQuery code goes here
 
     $(".darkmode").click(function() { //Darkmode
         if (lightmode) {
-            $("#home, #about, #home header, #about header, .projectContent a, .projectContent, footer, footer a, ooter a i").css({
+            $("#home, #about, #home header, #about header, .projectContent a, .projectContent, footer, footer a, footer a i").css({
                 "background": "#DCDCDC",
                 "color": "#1c1b1a"
             })
