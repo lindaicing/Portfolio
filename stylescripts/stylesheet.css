@@ -1,5 +1,4 @@
 body {
-    margin: auto;
     font-family: sans-serif;
     background: #DCDCDC;
     color: #1c1b1a;
@@ -9,6 +8,7 @@ body {
 .project {
     background: #1c1b1a;
     padding: 0;
+    margin: auto;
 }
 
 .projectContent div section, #home header, #about header {
