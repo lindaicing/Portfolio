@@ -34,6 +34,7 @@ div {
 
 nav {
     display: flex;
+    margin-top: 30px;
     width: 100%;
     height: 60px;
     position: fixed;
@@ -43,7 +44,7 @@ nav {
 }
 
 nav li, .important {
-    padding: 12px;
+    padding: 8px 12px;
     background: rgba(210, 200, 200, 1);
     border-radius: 30px;
     -webkit-transition: all 300ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
@@ -93,8 +94,8 @@ nav ul li {
 header {
     display: flex;
     flex-direction: column;
-    padding-top: 60px;
-    margin-bottom: 60px;
+    padding-top: 80px;
+    margin-bottom: 30px;
     width: 100vw;
     height: 300px;
     justify-content: center;
@@ -336,13 +337,13 @@ header img {
 .project header h1 {
     position: absolute;
     align-self: center;
-    top: 120px;
+    top: 160px;
 }
 
 .project header p {
     position: absolute;
     align-self: center;
-    top: 200px;
+    top: 240px;
 }
 
 .projectModule a img {
