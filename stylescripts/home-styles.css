@@ -107,10 +107,14 @@ nav ul li a:hover, nav ul li i:hover, footer i:hover{
 }
 
 .maincontain article:hover img{
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
-.maincontain article li, .maincontain article h3{
+.maincontain article h3{
+  margin-bottom: 8px; 
+}
+
+.maincontain article li{
   margin-bottom: 16px; 
 }
 
@@ -232,7 +236,7 @@ img#profile:hover {
   border-radius: 8px;
 }
 
-#aboutcontent a:hover{
+#aboutcontent a:hover, .onlink{
   color: #cbb1de;
 }
 
