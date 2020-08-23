@@ -84,7 +84,7 @@ header {
     padding-top: 80px;
     margin-bottom: 30px;
     width: 100vw;
-    height: 300px;
+    height: 360px;
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -439,34 +439,7 @@ section.webMockup {
 
 /** Queries ***************************************************************************************/
 
-@media only screen and (max-width: 1300px) {
-    .projectModule section {
-        width: 460px;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    .projectModule section {
-        width: 400px;
-    }
-}
-
 @media only screen and (max-width: 1024px) {
-    .projectModule {
-        align-items: center;
-        justify-content: center;
-    }
-    .projectModule section {
-        width: 80vw;
-    }
-    .projectModule a img {
-        width: 100%;
-        height: auto;
-    }
-    .projectModule h2 {
-        position: relative;
-        top: -40vw;
-    }
     .gallery img {
         width: 100%;
         height: auto;
@@ -491,19 +464,6 @@ section.webMockup {
 @media only screen and (max-width: 725px) {
     nav ul {
         margin-right: 50px;
-    }
-    .projectModule section a {
-        height: inherit;
-    }
-    .projectModule section a img {
-        width: auto;
-        height: 100%;
-    }
-    .projectModule h2 {
-        top: -220px;
-    }
-    img#profile, #profile2 {
-        width: 80vw;
     }
 }
 
@@ -533,49 +493,4 @@ nav .projectSecDark:hover, .important.projectSecDark:hover {
 .important {
     position: relative;
     left: -12px;
-}
-
-
-/** Coffee Button ***************************************************************************************/
-
-.bmc-button img {
-    height: 34px;
-    width: 35px;
-    margin-bottom: 1px !important;
-    box-shadow: none !important;
-    border: none !important;
-    vertical-align: middle !important;
-}
-
-.bmc-button {
-    justify-self: flex-start;
-    padding: 7px 10px 7px 10px !important;
-    line-height: 35px !important;
-    height: 51px !important;
-    min-width: 217px !important;
-    text-decoration: none !important;
-    display: inline-flex !important;
-    color: #ffffff !important;
-    background-color: #1f3c5e !important;
-    border-radius: 25px !important;
-    border: 1px solid transparent !important;
-    padding: 7px 10px 7px 10px !important;
-    font-size: 20px !important;
-    letter-spacing: -0.08px !important;
-    margin: 0 auto !important;
-    font-family: 'Source Sans Pro', sans-serif !important;
-    -webkit-box-sizing: border-box !important;
-    box-sizing: border-box !important;
-    -o-transition: 0.3s all linear !important;
-    -webkit-transition: 0.3s all linear !important;
-    -moz-transition: 0.3s all linear !important;
-    -ms-transition: 0.3s all linear !important;
-    transition: 0.3s all linear !important;
-    z-index: 1;
-}
-
-.bmc-button:hover, .bmc-button:active, .bmc-button:focus {
-    text-decoration: none !important;
-    opacity: 0.85 !important;
-    color: #ffffff !important;
 }
