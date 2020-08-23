@@ -41,7 +41,7 @@ nav {
 
 nav li, .important {
     padding: 8px 12px;
-    background: rgba(210, 200, 200, 1);
+    background: #c5bdca;
     border-radius: 30px;
     -webkit-transition: all 300ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
     -moz-transition: all 300ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
@@ -51,7 +51,7 @@ nav li, .important {
 }
 
 nav li:hover, .important:hover {
-    background: rgba(230, 220, 220, 1);
+    background: #d1cad6;
     -webkit-transition: all 300ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
     -moz-transition: all 300ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
     -o-transition: all 300ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
@@ -194,7 +194,7 @@ a, .darkmode {
 }
 
 a:hover, .darkmode:hover {
-    color: grey;
+    color: #ad99bb;
     -webkit-transition: all 100ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
     -moz-transition: all 100ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
     -o-transition: all 100ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
