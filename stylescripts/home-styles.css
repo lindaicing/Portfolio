@@ -36,7 +36,7 @@ nav.maincontain{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  z-index: 1;
+  z-index: 2;
 }
 
 nav ul{
@@ -124,7 +124,8 @@ nav ul li a:hover, nav ul li i:hover{
 .maincontain article img,
 .maincontain article:hover img,
 .maincontain article .projectDetails, 
-.maincontain article:hover .projectDetails{
+.maincontain article:hover .projectDetails,
+img#profile, #profile2, img#profile:hover {
   -webkit-transition: all 500ms cubic-bezier(0.300, 0.005, 0.300, 1.000);
   -moz-transition: all 500ms cubic-bezier(0.300, 0.005, 0.300, 1.000);
   -o-transition: all 500ms cubic-bezier(0.300, 0.005, 0.300, 1.000);
@@ -142,6 +143,10 @@ nav ul li a:hover, nav ul li i:hover{
   margin: 0 8px 24px 8px;
 }
 
+footer.maincontain{
+  margin-bottom: 40px;
+}
+
 /** Typography **/
 
 h1{
@@ -149,8 +154,19 @@ h1{
   margin: 60px auto 40px auto;
 }
 
+h3{
+  font-size: 1.6em;
+  margin-bottom: 16px;
+}
+
 a{
   color: #eee;
+  text-decoration: none;
+}
+
+p{
+  line-height: 1.5em;
+  margin-bottom:24px;
 }
 
 /** Images **/
@@ -173,6 +189,67 @@ a{
   margin: auto;
 }
 
+/** About **/
+
+img#profile, #profile2 {
+  display: block;
+  overflow: visible;
+  width: 280px;
+  border-radius: 8px;
+  margin: 0 60px 60px 0;
+}
+
+#profile2 {
+  position: relative;
+}
+
+img#profile {
+  position: absolute;
+  z-index: 1;
+  opacity: 1;
+  width: 280px;
+}
+
+img#profile:hover {
+  opacity: 0;
+}
+
+#aboutcontent a{
+  padding: 8px;
+  background: #222;
+  border-radius: 8px;
+}
+
+#aboutcontent a:hover{
+  color: #cbb1de;
+}
+
+#aboutMe{
+  display: flex;
+  margin: auto 30px;
+}
+
+#skills{
+  align-self: flex-start;
+  margin: auto 30px;
+}
+
+.coffee{
+  display:flex;
+  align-items: center;
+  width: 230px;
+  border-radius: 8px;
+}
+
+.coffee img{
+  width: 20px;
+  margin-left: 2px;
+}
+
+.coffee span{
+  margin-left: 10px;
+}
+
 /** Queries **/
 
 @media only screen and (max-width: 960px) {
@@ -186,5 +263,8 @@ a{
   #projectSec {
     margin: 60px 0;
     max-width: 100%;
+  }
+  #aboutMe{
+    flex-direction: column;
   }
 }
