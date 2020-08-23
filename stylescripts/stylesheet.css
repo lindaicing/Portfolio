@@ -59,6 +59,10 @@ nav li:hover, .important:hover {
     /* custom */
 }
 
+nav li:hover a, nav li:hover i, .important:hover a{
+    color: #7a6a86;
+}
+
 nav ul {
     display: flex;
     flex: 1;
@@ -230,7 +234,7 @@ h3 {
 }
 
 ::selection {
-    background: #FFDB58;
+    background: #d5cbdb;
 }
 
 h4 {
@@ -481,7 +485,7 @@ nav .projectSecDark:hover, .important.projectSecDark:hover {
 }
 
 .projectSecDark a:hover, nav .projectSecDark:hover a, .darkmode:hover {
-    color: #FFDB58;
+    color: #fff;
 }
 
 .important {
