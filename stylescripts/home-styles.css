@@ -102,7 +102,7 @@ nav ul li a:hover, nav ul li i:hover{
 
 .maincontain article:hover .projectDetails{
   position: absolute;
-  bottom: 20px;
+  bottom: 0px;
   left: 20px;
 }
 
