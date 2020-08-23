@@ -2,109 +2,134 @@
 <html lang="en">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162557372-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-162557372-1');
-    </script>
-    <!-- Main Head -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Linda's Portfolio</title>
-    <!--[if lt IE 9]>
-        <script src="stylescripts/dist/html5shiv.js"></script>
+    <!-- [if lt IE 9]>
+    <script src="stylescripts/html5shiv.js"></script>
     <![endif]-->
-    <link rel="icon" href="about/logo.png">
+    <link rel="icon" href="resources/logo.png">
     <link href="stylescripts/reset.css" rel="stylesheet">
-    <link href="stylescripts/stylesheet.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Assistant|Open+Sans&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/7d54d2caeb.js" crossorigin="anonymous"></script>
+    <link href="stylescripts/home-styles.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7d54d2caeb.js" crossorigin="anonymous"></script>
     <script src="stylescripts/script.js"></script>
 </head>
 
-<body id="home">
-    <div>
-        <header>
-            <h1>Hi! I'm Linda.</h1>
-            <p class="switchphrase">Welcome to my portfolio and hope you have a good day.</p>
-        </header>
-
-        <nav>
-            <a href="index.html"><img src="about/logo-black.png" alt="Logo" class="logo"></a>
+<body id="home page top">
+    <header class="maincontain">
+        <nav class="maincontain">
+            <a href="#top"><img id="logo" src="resources/logo-white.png"></a>
             <ul>
-                <li class="darkmode"><i class="fas fa-moon"></i><i class="fas fa-sun" style="display:none;"></i></li>
-                <li><a href="https://lindaicing.github.io/resources/" target="_blank">UI/UX Resources</a></li>
-                <li><a href="graphics/graphics.html" target="_blank">Graphics</a></li>
-                <li><a href="about.html" target="_blank">About</a></li>
+                <li id="darkmode">
+                    <i class="fas fa-moon" aria-hidden="true" style="display: none;"></i>
+                    <i class="fas fa-sun" aria-hidden="true" style="display: inline;"></i>
+                </li>
+                <li><a href="https://lindaicing.github.io/resources" target="_blank">UI/UX Resources</a></li>
+                <li><a href="#top">Work</a></li>
+                <li><a href="about.html">About</a></li>
             </ul>
         </nav>
+        <h1>Linda's Portfolio</h1>
+    </header>
 
-        <div class="projectModule">
-            <section>
-                <a href="projects/ethicli.html" id="ethicli">
-                    <img src="projects/ethicli/ethicli.png" alt="Ethicli">
-                    <h2>Ethicli</h2>
-                </a>
-            </section>
+    <section class="maincontain" id="projectSec">
+        <article>
+            <div class="imgContainer">
+                <a href="projects/ethicli.html"><img src="projects/ethicli/ethicli-square.png" alt="Project Image"></a>
+            </div>
+            <div class="projectDetails">
+                <h3>Ethicli</h3>
+                <p>Brief Project Description</p>
+            </div>
+            <ul class="projectTags">
+                <li>🌱 <span>Sustainability</span></li>
+                <li><img src="resources/figma.png"> <span>Figma</span></li>
+                <li><img src="resources/htmlcssjs.png"> <span>HTML, CSS, JS</span></li>
+            </ul>
+        </article>
 
-            <section>
-                <a href="projects/uiuxresource.html">
-                    <img src="projects/uiuxresource/uiuxresource.png" alt="UI/UX Resource">
-                    <h2>UI/UX Resources</h2>
-                </a>
-            </section>
-            
-            <section>
-                <a href="projects/htf.html">
-                    <img src="projects/htf/htf1.png" alt="Hard Tech Fund">
-                    <h2>Hard Tech Fund</h2>
-                </a>
-            </section>
+        <article>
+            <div class="imgContainer">
+                <a href="projects/htf.html"><img src="projects/htf/symposium.png" alt="Project Image"></a>
+            </div>
+            <div class="projectDetails">
+                <h3>Hard Tech Fund</h3>
+                <p>Brief Project Description</p>
+            </div>
+            <ul class="projectTags">
+                <li>🌱 <span>Sustainability</span></li>
+                <li><img src="resources/htmlcssjs.png"> <span>HTML, CSS, JS</span></li>
+            </ul>
+        </article>
 
-            <section>
-                <a href="projects/qwertea.html">
-                    <img src="projects/qwertea/qwertea1.png" alt="QwerTEA Cafe">
-                    <h2>QwerTea Cafe</h2>
-                </a>
-            </section>
+        <article>
+            <div class="imgContainer">
+                <a href="projects/uiuxresource.html"><img src="projects/uiuxresource/uiuxresource.png" alt="Project Image"></a>
+            </div>
+            <div class="projectDetails">
+                <h3>UI/UX Resources</h3>
+                <p>Design resource for beginners in UI/UX</p>
+            </div>
+            <ul class="projectTags">
+                <li><img src="resources/htmlcssjs.png"> <span>HTML, CSS, JS</span></li>
+                <li>✋ <span>Design for Accessibility</span></li>
+            </ul>
+        </article>
 
+        <article>
+            <div class="imgContainer">
+                <a href="projects/dwella.html"><img src="projects/dwella/dwella1.png" alt="Project Image"></a>
+            </div>
+            <div class="projectDetails">
+                <h3>Dwella</h3>
+                <p>Brief Project Description</p>
+            </div>
+            <ul class="projectTags">
+                <li><img src="resources/xd.png"> <span>Adobe XD</span></li>
+                <li><img src="resources/htmlcssjs.png"> <span>HTML, CSS, JS</span></li>
+            </ul>
+        </article>
 
-            <section>
-                <a href="projects/dwella.html">
-                    <img src="projects/dwella/dwella1.png" alt="Dwella">
-                    <h2>Dwella</h2>
-                </a>
-            </section>
+        <article>
+            <div class="imgContainer">
+                <a href="projects/sift.html"><img src="projects/sift/mockup3.png" alt="Project Image"></a>
+            </div>
+            <div class="projectDetails">
+                <h3>SiFT</h3>
+                <p>Brief Project Description</p>
+            </div>
+            <ul class="projectTags">
+                <li><img src="resources/xd.png"> <span>Adobe XD</span></li>
+                <li><img src="resources/htmlcssjs.png"> <span>HTML, CSS, JS</span></li>
+                <li>✋ <span>Design for Accessibility</span></li>
+            </ul>
+        </article>
 
+        <article>
+            <div class="imgContainer">
+                <a href="projects/qwertea.html"><img src="projects/qwertea/qwertea1.png" alt="Project Image"></a>
+            </div>
+            <div class="projectDetails">
+                <h3>QwerTEA</h3>
+                <p>Brief Project Description</p>
+            </div>
+            <ul class="projectTags">
+                <li><img src="resources/htmlcssjs.png"> <span>HTML, CSS, JS</span></li>
+            </ul>
+        </article>
+    </section>
 
-            <section>
-                <a href="projects/sift.html">
-                    <img src="projects/sift/sift8-wide.png" alt="Sift">
-                    <h2>SiFT</h2>
-                </a>
-            </section>
+    <footer class="maincontain">
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/lindaicing" target="_blank"><i class="fab fa-linkedin"></i></a> <!-- LinkedIn -->
+            <a href="https://www.instagram.com/lindaicings" target="_blank"><i class="fab fa-instagram"></i></a> <!-- Insta -->
+            <a href="https://github.com/lindaicing" target="_blank"><i class="fab fa-github"></i></a> <!-- GitHub -->
+            <a href="https://devpost.com/Lindaicing" target="_blank"><i class="fas fa-code"></i></a> <!-- Devpost -->
+            <a href="https://dev.to/lindaicing" target="_blank"><i class="fab fa-dev"></i></a> <!-- Dev -->
         </div>
-
-        <footer>
-            <section>
-                <p>Linda Huang 2020</p>
-                <p>
-                    <a href="https://www.instagram.com/lindaicings/" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/lindaicing/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/lindaicing" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://devpost.com/Lindaicing" target="_blank"><i class="fas fa-code"></i></a>
-                    <a href="https://dev.to/lindaicing" target="_blank"><i class="fab fa-dev" title="lindaicing's DEV Profile"></i></a>
-                </p>
-            </section>
-        </footer>
-    </div>
+        <p>&#169; Linda Huang 2020</p>
+    </footer>
 </body>
 
 </html>

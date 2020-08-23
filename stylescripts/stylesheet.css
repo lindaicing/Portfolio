@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     background: #DCDCDC;
     color: #1c1b1a;
     overflow-x: hidden;
@@ -11,7 +11,7 @@ body {
     margin: auto;
 }
 
-.projectContent div section, #home header, #about header {
+.projectContent div section, #about header {
     max-width: 90vw;
     margin-left: 0;
     margin-right: 0;
@@ -26,10 +26,6 @@ div {
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-#about, #home {
-    max-width: 4000px;
 }
 
 nav {
@@ -52,12 +48,6 @@ nav li, .important {
     -o-transition: all 300ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
     transition: all 300ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
     /* custom */
-    box-shadow: 0px 0px 0px #dadada, -0px -0px 0px #dedede;
-    -webkit-transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
-    -moz-transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
-    -o-transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
-    transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
-    /* custom */
 }
 
 .important{
@@ -66,17 +56,10 @@ nav li, .important {
 
 nav li:hover, .important:hover {
     background: rgba(230, 220, 220, 1);
-    box-shadow: 0px 0px 20px rgba(154, 154, 154, 0.5);
     -webkit-transition: all 300ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
     -moz-transition: all 300ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
     -o-transition: all 300ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
     transition: all 300ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
-    /* custom */
-    box-shadow: 10px 10px 20px #9a9a9a, -10px -10px 20px #ffffff;
-    -webkit-transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
-    -moz-transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
-    -o-transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
-    transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
     /* custom */
 }
 
@@ -108,7 +91,7 @@ header {
     background: #DCDCDC;
 }
 
-#home header, #about header {
+#about header {
     align-items: flex-start;
     width: 80%;
 }
@@ -116,50 +99,6 @@ header {
 .project header {
     margin-bottom: 0px;
     background: none;
-}
-
-.projectModule {
-    width: 80%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    margin: 0;
-}
-
-.projectModule section {
-    width: 500px;
-    height: 350px;
-    text-align: center;
-    align-items: center;
-    overflow: hidden;
-    margin-bottom: 60px;
-    border-radius: 30px;
-    background: #1c1b1a;
-    box-shadow: 0px 0px 0px #dadada, -0px -0px 0px #dedede;
-    -webkit-transition: all 300ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
-    -moz-transition: all 300ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
-    -o-transition: all 300ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
-    transition: all 300ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
-    /* custom */
-    -webkit-transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
-    -moz-transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
-    -o-transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
-    transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
-    /* custom */
-}
-
-.projectModule section:hover {
-    box-shadow: 10px 10px 20px #9a9a9a, -10px -10px 40px #ffffff;
-    -webkit-transition: all 300ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
-    -moz-transition: all 300ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
-    -o-transition: all 300ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
-    transition: all 300ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
-    /* custom */
-    -webkit-transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
-    -moz-transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
-    -o-transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
-    transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
-    /* custom */
 }
 
 .projectContent {
@@ -271,7 +210,7 @@ h1 {
     margin-bottom: 40px;
 }
 
-#home header p, #about header p {
+#about header p {
     font-size: 18pt;
     line-height: 26pt;
     max-width: 80%;
@@ -417,7 +356,6 @@ img#profile, #profile2 {
     overflow: visible;
     width: 490px;
     border-radius: 30px;
-    box-shadow: 10px 10px 20px #9a9a9a, -10px -10px 20px #ffffff;
     margin: 0 60px 60px 0;
     -webkit-transition: all 240ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
     -moz-transition: all 240ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
@@ -454,10 +392,6 @@ img#profile:hover {
     -o-transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
     transition-timing-function: cubic-bezier(1.000, 0.015, 0.750, 0.750);
     /* custom */
-}
-
-#profile.projectSecDark, #profile2.projectSecDark {
-    box-shadow: 10px 10px 20px #000, -10px -10px 20px #302f2d;
 }
 
 .projectContent .gallery {
@@ -583,17 +517,14 @@ section.webMockup {
 
 .projectSecDark section, nav .projectSecDark, .important.projectSecDark {
     background: #2c2b2a;
-    box-shadow: 0px 0px 0px #000, -0px -0px 0px #302f2d;
 }
 
 .projectSecDark section:hover {
     background: #2c2b2a;
-    box-shadow: 10px 10px 20px #000, -10px -10px 40px #302f2d;
 }
 
 nav .projectSecDark:hover, .important.projectSecDark:hover {
     background: #2c2b2a;
-    box-shadow: 3px 3px 10px #000, -3px -3px 20px #302f2d;
 }
 
 .projectSecDark a, .darkmode.projectSecDark {
@@ -636,10 +567,8 @@ nav .projectSecDark:hover, .important.projectSecDark:hover {
     padding: 7px 10px 7px 10px !important;
     font-size: 20px !important;
     letter-spacing: -0.08px !important;
-    box-shadow: 0px 1px 2px #0a3261 !important;
-    -webkit-box-shadow: 0px 1px 2px 2px #0a3261 !important;
     margin: 0 auto !important;
-    font-family: 'Assistant', sans-serif !important;
+    font-family: 'Source Sans Pro', sans-serif !important;
     -webkit-box-sizing: border-box !important;
     box-sizing: border-box !important;
     -o-transition: 0.3s all linear !important;
@@ -651,9 +580,7 @@ nav .projectSecDark:hover, .important.projectSecDark:hover {
 }
 
 .bmc-button:hover, .bmc-button:active, .bmc-button:focus {
-    -webkit-box-shadow: 0px 1px 2px 2px #0a3261 !important;
     text-decoration: none !important;
-    box-shadow: 0px 1px 2px 2px #0a3261 !important;
     opacity: 0.85 !important;
     color: #ffffff !important;
 }
