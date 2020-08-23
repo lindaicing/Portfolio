@@ -146,20 +146,25 @@ section#aboutMe, section#aboutMe section {
     margin-bottom: 0px;
 }
 
-footer {
+/** Footer ************************************************************************************/
+
+footer{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0 40px 0;
     width: 100%;
     background: #DCDCDC;
 }
 
-footer section {
+.socials{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 80%;
 }
 
+.socials i{
+    margin: 0 8px 24px 8px;
+}
 
 /** Typography ************************************************************************************/
 
@@ -248,18 +253,6 @@ p, .projectContent ul {
 .project section p:last-child {
     margin-bottom: 0;
 }
-
-footer p {
-    padding: 60px 0 0 0;
-    line-height: 24pt;
-}
-
-footer p:last-child {
-    min-width: 100px;
-    align-items: right;
-    text-align: end;
-}
-
 
 /** Images, Media, Button ******************************************************************************/
 
