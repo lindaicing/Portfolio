@@ -165,8 +165,12 @@ a{
 }
 
 p{
-  line-height: 1.5em;
+  line-height: 1.8em;
   margin-bottom:24px;
+}
+
+b{
+  font-weight: bold;
 }
 
 /** Images **/
@@ -241,13 +245,13 @@ img#profile:hover {
 .coffee{
   display:flex;
   align-items: center;
-  width: 230px;
+  width: 220px;
   border-radius: 8px;
 }
 
 .coffee img{
   width: 20px;
-  margin-left: 2px;
+  margin-left: 4px;
 }
 
 .coffee span{
