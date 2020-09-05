@@ -397,7 +397,7 @@ img#profile:hover {
     display: flex;
     flex-flow: row wrap;
     width: 100%;
-    left: -100px;
+    padding-left: 0;
     margin-bottom: 40px;
 }
 
