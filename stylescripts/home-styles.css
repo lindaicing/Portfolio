@@ -59,6 +59,10 @@ nav ul li a:hover, nav ul li i:hover, footer i:hover {
     background: #dbcce6;
 }
 
+nav a::selection, nav img::selection, img::selection, .socials::selection, #confetti::selection {
+    background: none;
+}
+
 
 /** Project **/
 
@@ -141,11 +145,11 @@ nav ul li a:hover, nav ul li i:hover, footer i:hover {
 
 /** Footer **/
 
-.socials {
+.socials, #confetti {
     cursor: pointer;
 }
 
-.socials i {
+.socials i, #confetti {
     margin: 0 8px 24px 8px;
 }
 

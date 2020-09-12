@@ -173,8 +173,9 @@ footer {
     flex-direction: row;
 }
 
-.socials i {
+.socials i, #confetti {
     margin: 0 8px 24px 8px;
+    cursor: pointer;
 }
 
 
@@ -243,6 +244,10 @@ h3 {
 
 ::selection {
     background: #d5cbdb;
+}
+
+nav a::selection, nav img::selection, img::selection, .socials::selection, #confetti::selection {
+    background: none;
 }
 
 h4 {
