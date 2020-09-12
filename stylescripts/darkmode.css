@@ -1,0 +1,47 @@
+/** DarkMode ***************************************************************************************/
+
+body.dark {
+    background: #333;
+    color: #eee;
+}
+
+body.dark a {
+    color: #eee;
+}
+
+body.dark .onlink {
+    color: #cbb1de;
+}
+
+body.dark #aboutcontent a, body.dark .important {
+    background: #222;
+}
+
+.fas.fa-moon, body.dark .fas.fa-sun {
+    display: none;
+}
+
+body.dark .fas.fa-moon, .fas.fa-sun {
+    display: inline;
+}
+
+
+/** Project DarkMode ***************************************************************************************/
+
+body.dark.project {
+    background: #1c1b1a;
+}
+
+body.dark .projectContent, body.dark footer {
+    background: #333;
+    color: #eee;
+}
+
+body.dark.project nav ul li {
+    background: #222;
+    color: #eee;
+}
+
+body.dark p {
+    color: #aaa;
+}

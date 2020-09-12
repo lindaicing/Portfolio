@@ -23,6 +23,7 @@
     <link rel="icon" href="../resources/logo.png">
     <link href="../stylescripts/reset.css" rel="stylesheet">
     <link href="../stylescripts/stylesheet.css" rel="stylesheet">
+    <link href="../stylescripts/darkmode.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7d54d2caeb.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -38,10 +39,13 @@
         </header>
 
         <nav>
-            <a href="../index.html"><img src="../resources/logo-white.png" alt="Logo" class="sublogo"></a>
+            <a href="../index.html"><img src="../resources/logo-white.png" alt="Logo" id="sublogo"></a>
             <ul>
-                <li class="darkmode projectSecDark"><i class="fas fa-moon"></i><i class="fas fa-sun" style="display:none;"></i></li>
-                <li class="projectSecDark"><a href="https://lindaicing.github.io/resources/">UI/UX Resources</a></li>
+                <li class="darkmode">
+                    <i class="fas fa-moon" aria-hidden="true"></i>
+                    <i class="fas fa-sun" aria-hidden="true"></i>
+                </li>
+                <li class="projectSecDark" id="uiuxresources"><a href="https://lindaicing.github.io/resources/">UI/UX Resources</a></li>
                 <li class="projectSecDark"><a href="../about.html">About</a></li>
             </ul>
         </nav>
@@ -50,7 +54,8 @@
             <div>
                 <section>
                     <h3>Overview</h3>
-                    <p>This is a resource for people interested in UI/UX Design. Anyone can comment on the Google Doc, and I transfer any comments/adjustments to the coded site, pushed and published via GitHub. It started as a Google Doc but after awareness of the document started picking up, I made it into a website. The site is coded using HTML/CSS and JavaScript(vanilla and JQuery). It's in the works!</p>
+                    <p>This is a resource for people interested in UI/UX Design. Anyone can comment on the Google Doc, and I transfer any comments/adjustments to the coded site, pushed and published via GitHub. It started as a Google Doc but after awareness
+                        of the document started picking up, I made it into a website. The site is coded using HTML/CSS and JavaScript(vanilla and JQuery). It's in the works!</p>
                     <p class="important"><a href="https://lindaicing.github.io/resources/" target="_blank">See the Site</a></p>
                     <p class="important"><a href="https://docs.google.com/document/d/1B9-cZVALFTpLYcDJYpXq8D77jpv1JGK3gFcUE4Sl2Bg/edit" target="_blank">Check out the Google Doc</a></p>
                 </section>
@@ -59,11 +64,16 @@
 
         <footer class="maincontain">
             <div class="socials">
-                <a href="https://www.linkedin.com/in/lindaicing" target="_blank"><i class="fab fa-linkedin"></i></a> <!-- LinkedIn -->
-                <a href="https://www.instagram.com/lindaicings" target="_blank"><i class="fab fa-instagram"></i></a> <!-- Insta -->
-                <a href="https://github.com/lindaicing" target="_blank"><i class="fab fa-github"></i></a> <!-- GitHub -->
-                <a href="https://devpost.com/Lindaicing" target="_blank"><i class="fas fa-code"></i></a> <!-- Devpost -->
-                <a href="https://dev.to/lindaicing" target="_blank"><i class="fab fa-dev"></i></a> <!-- Dev -->
+                <a href="https://www.linkedin.com/in/lindaicing" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <!-- LinkedIn -->
+                <a href="https://www.instagram.com/lindaicings" target="_blank"><i class="fab fa-instagram"></i></a>
+                <!-- Insta -->
+                <a href="https://github.com/lindaicing" target="_blank"><i class="fab fa-github"></i></a>
+                <!-- GitHub -->
+                <a href="https://devpost.com/Lindaicing" target="_blank"><i class="fas fa-code"></i></a>
+                <!-- Devpost -->
+                <a href="https://dev.to/lindaicing" target="_blank"><i class="fab fa-dev"></i></a>
+                <!-- Dev -->
             </div>
             <p>&#169; Linda Huang 2020</p>
         </footer>

@@ -1,59 +1,35 @@
-var lightmode; //lightmode = default
+var lightmode = true; //lightmode = default
 
 $(document).ready(function() { //JQuery code goes here
-    $(".noProject").css({
-        "display": "none"
-    })
-
     setDarkmode();
-    function setDarkmode(){
+
+    function setDarkmode() {
         $(".darkmode").click(function() { //Darkmode
-            if (lightmode) {
-                $("#home, #about, #home header, #about header, .projectContent a, .projectContent, footer, footer a, footer a i").css({
-                    "background": "#DCDCDC",
-                    "color": "#1c1b1a"
-                })
-                $(".project").css({ "color": "#1c1b1a" })
-                $(".fa-moon").css({ "display": "inline" })
-                $(".fa-sun").css({ "display": "none" })
-                $(".projectModule, nav li, .important, #profile, #profile2").removeClass("projectSecDark")
-                $(".logo").attr("src", "resources/logo-black.png");
-                $(".sublogo").attr("src", "../resources/logo-black.png");
-                $(".credits").css({ "color": "#fff" });
-            } else {
-                $("#home, #about, #home header, #about header, .projectContent a, .projectContent, footer, footer a, footer a i").css({
-                    "background": "#1c1b1a",
-                    "color": "#DCDCDC"
-                })
-                $(".project").css({ "color": "#DCDCDC" })
-                $(".fa-moon").css({ "display": "none" })
-                $(".fa-sun").css({ "display": "inline" })
-                $(".projectModule, nav li, .important, #profile, #profile2").addClass("projectSecDark")
-                $(".logo").attr("src", "resources/logo-white.png");
-                $(".sublogo").attr("src", "../resources/logo-white.png");
-                $(".credits").css({ "color": "#545454" });
-            }
-            $(".important a, footer a, footer a i").css({ "background": "none" })
+            $("body").toggleClass("dark")
             lightmode = !lightmode;
+            if (lightmode) {
+                $("#logo").attr("src", "resources/logo-black.png");
+                $("#sublogo").attr("src", "../resources/logo-black.png");
+            } else {
+                $("#logo").attr("src", "resources/logo-white.png");
+                $("#sublogo").attr("src", "../resources/logo-white.png");
+            }
             if ($(this).scrollTop() < 300) {
-                $(".project nav li").addClass("projectSecDark")
-                $(".sublogo").attr("src", "../resources/logo-white.png");
+                $("#sublogo").attr("src", "../resources/logo-white.png");
             }
         });
     }
 
     $(window).scroll(function() {
         if ($(this).scrollTop() >= 300) {
-            $(".project nav li").removeClass("projectSecDark")
-            if(lightmode){
-                $(".sublogo").attr("src", "../resources/logo-white.png");
-            }else{
-                $(".sublogo").attr("src", "../resources/logo-black.png");
+            if (lightmode) {
+                $("#sublogo").attr("src", "../resources/logo-black.png");
+            } else {
+                $("#sublogo").attr("src", "../resources/logo-white.png");
             }
         }
         if ($(this).scrollTop() < 300) {
-            $(".project nav li").addClass("projectSecDark")
-            $(".sublogo").attr("src", "../resources/logo-white.png");
+            $("#sublogo").attr("src", "../resources/logo-white.png");
         }
     });
 })

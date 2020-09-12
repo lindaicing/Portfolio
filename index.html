@@ -6,9 +6,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162557372-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
 
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
         gtag('config', 'UA-162557372-1');
     </script>
 
@@ -21,6 +23,7 @@
     <link rel="icon" href="resources/logo.png">
     <link href="stylescripts/reset.css" rel="stylesheet">
     <link href="stylescripts/home-styles.css" rel="stylesheet">
+    <link href="stylescripts/darkmode.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7d54d2caeb.js" crossorigin="anonymous"></script>
@@ -30,11 +33,11 @@
 <body id="home page top">
     <header class="maincontain">
         <nav class="maincontain">
-            <a href="#top"><img id="logo" src="resources/logo-white.png"></a>
+            <a href="#top"><img id="logo" src="resources/logo-black.png"></a>
             <ul>
-                <li id="darkmode">
-                    <i class="fas fa-moon" aria-hidden="true" style="display: none;"></i>
-                    <i class="fas fa-sun" aria-hidden="true" style="display: inline;"></i>
+                <li class="darkmode">
+                    <i class="fas fa-moon" aria-hidden="true"></i>
+                    <i class="fas fa-sun" aria-hidden="true"></i>
                 </li>
                 <li><a href="https://lindaicing.github.io/resources" target="_blank">UI/UX Resources</a></li>
                 <li><a class="onlink" href="#top">Work</a></li>
@@ -46,7 +49,7 @@
     </header>
 
     <section class="maincontain" id="projectSec">
-        <article>
+        <article title="Browser Extension for Ethical Shopping">
             <div class="imgContainer">
                 <a href="projects/ethicli.html"><img src="projects/ethicli/ethicli-square.png" alt="Project Image"></a>
             </div>
@@ -61,7 +64,7 @@
             </ul>
         </article>
 
-        <article>
+        <article title="Sustainable Hardware Nonprofit">
             <div class="imgContainer">
                 <a href="projects/htf.html"><img src="projects/htf/symposium.png" alt="Project Image"></a>
             </div>
@@ -75,7 +78,7 @@
             </ul>
         </article>
 
-        <article>
+        <article title="Design resource for beginners in UI/UX">
             <div class="imgContainer">
                 <a href="projects/uiuxresource.html"><img src="projects/uiuxresource/uiuxresource.png" alt="Project Image"></a>
             </div>
@@ -89,7 +92,7 @@
             </ul>
         </article>
 
-        <article>
+        <article title="Housing Application for Subleasing and Long-Term Contracts">
             <div class="imgContainer">
                 <a href="projects/dwella.html"><img src="projects/dwella/dwella5.png" alt="Project Image"></a>
             </div>
@@ -103,7 +106,7 @@
             </ul>
         </article>
 
-        <article>
+        <article title="Search Engine the provides Sensory Learning Style-based Media">
             <div class="imgContainer">
                 <a href="projects/sift.html"><img src="projects/sift/mockup3.png" alt="Project Image"></a>
             </div>
@@ -118,7 +121,7 @@
             </ul>
         </article>
 
-        <article>
+        <article title="Senior Food Delivery Prototype and Business Development">
             <div class="imgContainer">
                 <a href="projects/clove.html"><img src="projects/clove/clove.png" alt="Project Image"></a>
             </div>
@@ -132,7 +135,7 @@
             </ul>
         </article>
 
-        <article style="display:none;">
+        <article title="Cyber Cafe Ordering Process" style="display:none;">
             <div class="imgContainer">
                 <a href="projects/qwertea.html"><img src="projects/qwertea/qwertea1.png" alt="Project Image"></a>
             </div>
@@ -148,11 +151,16 @@
 
     <footer class="maincontain">
         <div class="socials">
-            <a href="https://www.linkedin.com/in/lindaicing" target="_blank"><i class="fab fa-linkedin"></i></a> <!-- LinkedIn -->
-            <a href="https://www.instagram.com/lindaicings" target="_blank"><i class="fab fa-instagram"></i></a> <!-- Insta -->
-            <a href="https://github.com/lindaicing" target="_blank"><i class="fab fa-github"></i></a> <!-- GitHub -->
-            <a href="https://devpost.com/Lindaicing" target="_blank"><i class="fas fa-code"></i></a> <!-- Devpost -->
-            <a href="https://dev.to/lindaicing" target="_blank"><i class="fab fa-dev"></i></a> <!-- Dev -->
+            <a href="https://www.linkedin.com/in/lindaicing" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <!-- LinkedIn -->
+            <a href="https://www.instagram.com/lindaicings" target="_blank"><i class="fab fa-instagram"></i></a>
+            <!-- Insta -->
+            <a href="https://github.com/lindaicing" target="_blank"><i class="fab fa-github"></i></a>
+            <!-- GitHub -->
+            <a href="https://devpost.com/Lindaicing" target="_blank"><i class="fas fa-code"></i></a>
+            <!-- Devpost -->
+            <a href="https://dev.to/lindaicing" target="_blank"><i class="fab fa-dev"></i></a>
+            <!-- Dev -->
         </div>
         <p>&#169; Linda Huang 2020</p>
     </footer>

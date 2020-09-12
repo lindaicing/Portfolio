@@ -59,8 +59,17 @@ nav li:hover, .important:hover {
     /* custom */
 }
 
-nav li:hover a, nav li:hover i, .important:hover a{
+nav li:hover a, nav li:hover i, .important:hover a {
     color: #7a6a86;
+}
+
+.important {
+    background: #cbc0d3aa;
+    border-radius: 8px;
+}
+
+.darkmode {
+    padding: 12px;
 }
 
 nav ul {
@@ -76,10 +85,6 @@ nav ul li {
     justify-content: flex-end;
     text-align: right;
     margin-left: 40px;
-}
-
-.darkmode{
-    padding: 12px;
 }
 
 header {
@@ -150,25 +155,27 @@ section#aboutMe, section#aboutMe section {
     margin-bottom: 0px;
 }
 
+
 /** Footer ************************************************************************************/
 
-footer{
+footer {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 100px 0 40px 0;
+    padding: 100px 60px 40px 60px;
     width: 100%;
     background: #DCDCDC;
 }
 
-.socials{
+.socials {
     display: flex;
     flex-direction: row;
 }
 
-.socials i{
+.socials i {
     margin: 0 8px 24px 8px;
 }
+
 
 /** Typography ************************************************************************************/
 
@@ -258,9 +265,10 @@ p, .projectContent ul {
     margin-bottom: 0;
 }
 
+
 /** Images, Media, Button ******************************************************************************/
 
-.logo, .sublogo {
+#sublogo {
     height: 38px;
     margin-left: 10vw;
 }
@@ -465,30 +473,8 @@ section.webMockup {
     }
 }
 
-
-/** DarkMode ***************************************************************************************/
-
-.projectSecDark section, nav .projectSecDark, .important.projectSecDark {
-    background: #2c2b2a;
-}
-
-.projectSecDark section:hover {
-    background: #2c2b2a;
-}
-
-nav .projectSecDark:hover, .important.projectSecDark:hover {
-    background: #2c2b2a;
-}
-
-.projectSecDark a, .darkmode.projectSecDark {
-    color: #DCDCDC;
-}
-
-.projectSecDark a:hover, nav .projectSecDark:hover a, .darkmode:hover {
-    color: #fff;
-}
-
-.important {
-    position: relative;
-    left: -12px;
+@media only screen and (max-width: 472px) {
+    #uiuxresources {
+        display: none;
+    }
 }
