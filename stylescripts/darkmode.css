@@ -17,6 +17,10 @@ body.dark #aboutcontent a, body.dark .important {
     background: #222;
 }
 
+body.dark #aboutcontent .important {
+    background: none;
+}
+
 .fas.fa-moon, body.dark .fas.fa-sun {
     display: none;
 }
