@@ -1,6 +1,6 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    background: #DCDCDC;
+    background: #eee;
     color: #1c1b1a;
     overflow-x: hidden;
 }
@@ -66,6 +66,7 @@ nav li:hover a, nav li:hover i, .important:hover a {
 .important {
     background: #cbc0d3aa;
     border-radius: 8px;
+    padding: 6px 8px;
 }
 
 .darkmode {
