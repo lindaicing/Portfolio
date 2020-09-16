@@ -95,7 +95,7 @@ nav a::selection, nav img::selection, img::selection, .socials::selection, #conf
     opacity: 1;
 }
 
-.projectTags img, .maincontain article:hover .projectTags img {
+.projectTags img, .maincontain article:hover .projectTags img, #programmingicon {
     padding-right: 6px;
     width: 17px;
     display: inline;
@@ -145,7 +145,7 @@ nav a::selection, nav img::selection, img::selection, .socials::selection, #conf
 
 /** Footer **/
 
-.socials, #confetti {
+.darkmode, .socials, #confetti {
     cursor: pointer;
 }
 
@@ -189,6 +189,7 @@ b {
 
 #logo {
     height: 30px;
+    cursor: pointer;
 }
 
 .imgContainer {
