@@ -56,10 +56,10 @@ $(document).ready(function() { //JQuery code goes here
         ];
         var interestsArray = [
             "Animal Welfare",
-            "Biodesign",
-            "Biomimicry",
-            "Fighting Climate Change",
+            "Biodesign and Biomimicry",
+            "Combatting Climate Change",
             "Eco-Friendly Design",
+            "Human-Centered Design",
             "Mental Health Awareness",
             "Sustainable Design",
             "Tech Innovation",
