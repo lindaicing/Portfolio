@@ -33,10 +33,10 @@ $(document).ready(function() { //JQuery code goes here
 
     var interval = setInterval(blink, 8000);
     function blink() {
-        $("#personaltitle").delay(500).fadeOut("slow", function(){
+        $("#personaltitle").delay(100).fadeOut("slow", function(){
             madlibSwitcheroo();        
             $(this).fadeIn("slow", function(){
-                $(this).delay(500).fadeIn("slow", function(){});  
+                $(this).delay(100).fadeIn("slow", function(){});  
             });
         })
     }
