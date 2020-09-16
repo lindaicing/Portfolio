@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162557372-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-162557372-1');
+    </script>
+    <!-- Main Head -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Linda's Portfolio</title>
+    <!--[if lt IE 9]>
+        <script src="../stylescripts/dist/html5shiv.js"></script>
+    <![endif]-->
+    <link rel="icon" href="../resources/logo.png">
+    <link href="../stylescripts/reset.css" rel="stylesheet">
+    <link href="../stylescripts/stylesheet.css" rel="stylesheet">
+    <link href="../stylescripts/darkmode.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7d54d2caeb.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../stylescripts/confetti.js"></script>
+    <script src="../stylescripts/script.js"></script>
+</head>
+
+<body id="qwertea" class="project">
+    <div>
+        <header>
+            <img src="greenlink/GreenLink.png" alt="Header Image">
+            <h1>GreenLink</h1>
+            <p>Chrome extension that motivates users to make easy sustainable every day choices</p>
+        </header>
+
+        <nav>
+            <a href="../index.html"><img src="../resources/logo-white.png" alt="Logo" id="sublogo"></a>
+            <ul>
+                <li class="darkmode">
+                    <i class="fas fa-moon" aria-hidden="true"></i>
+                    <i class="fas fa-sun" aria-hidden="true"></i>
+                </li>
+                <li id="uiuxresources"><a href="https://lindaicing.github.io/resources/" target="_blank">UI/UX Resources</a></li>
+                <li><a href="../about.html">About</a></li>
+            </ul>
+        </nav>
+
+        <div class="projectContent">
+            <div>
+                <section>
+                    <h3>Overview</h3>
+                    <p>GreenLink is a simple Chrome extension to encourage users to make more sustainable lifestyle choices. A quote/suggestion is displayed on the left hand side under our logo. This extension is intended to be a Google Chrome Extension for all to use, especially those who want to try being more sustainable and just need some suggestions on how to do so when opening a new tab.</p>
+                    <p class="important"><a href="https://github.com/KarleeWong/Dubs-Squad" target="_blank">GitHub Repo</a></p>
+                    <p class="important"><a href="https://devpost.com/software/dubs-squad-19h5rk" target="_blank">Devpost Submission</a></p>
+                </section>
+                <section>
+                    <h3>Problem</h3>
+                    <p>Coming Soon</p>
+                </section>
+                <section>
+                    <h3>Approach and Research</h3>
+                    <p>Coming Soon</p>
+                </section>
+                <section>
+                    <h3>Development</h3>
+                    <h4>Time and Location</h4>
+                    <p>The time and location is tracked using Javascript. We display the time beneath the quote, and next to the location of the user. This way, the user can easily check the time if they need to while also keeping the quote/suggestion up as a reminder.</p>
+                    <p>There is a night filter applied between the hours of 8PM to 8AM, which accommodates to the user's screen. The night mode dims/brightens as each hour passes, so at night, users' screens are darker. This helps limit bright screen exposure as well as increases the emphasis on the time and quote (since the text is white).</p>
+
+                    <h4>Exploring Linked Items</h4>
+                    <p>On the bottom right hand corner, there is a link that users can click to learn more about topics involving the quote/suggestion that is currently shown on their screen. Using Javascript, a search is conducted with key terms loaded into an array.</p>
+
+                    <h4>Logo and Design</h4>
+                    <p>The Logo was created in Adobe Illustrator. The visuals (illustrations) are also linked to the quotes and search terms. The logo shows two infinity symbols linked against a green background, which symbolizes the green choices we make and how they are linked to our environments. The colors we chose are ambient, analogous, and green, which we hope to induce a sense of calm and serenity. The typography we chose have a serious aspect as well as a more playful one, juxtaposed to provide visual interest while still retaining readability.</p>
+                    <section class="gallery">
+                        <img src="greenlink/logo1.png" alt="Logo 1">
+                        <img src="greenlink/logo2.png" alt="Logo 2">
+                    </section>
+                </section>
+                <section>
+                    <h3>Final Product</h3>
+                    <section class="gallery">
+                        <img src="greenlink/GreenLink1.png" alt="Full Image" class="fullimg">
+                    </section>
+                </section>
+            </div>
+        </div>
+
+        <footer>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/lindaicing" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <!-- LinkedIn -->
+                <a href="https://www.instagram.com/lindaicings" target="_blank"><i class="fab fa-instagram"></i></a>
+                <!-- Insta -->
+                <a href="https://dribbble.com/Lindaicing" target="_blank"><i class="fab fa-dribbble"></i></a>
+                <!-- Dribbble -->
+                <a href="https://github.com/lindaicing" target="_blank"><i class="fab fa-github"></i></a>
+                <!-- GitHub -->
+                <a href="https://devpost.com/Lindaicing" target="_blank"><i class="fas fa-code"></i></a>
+                <!-- Devpost -->
+                <a href="https://dev.to/lindaicing" target="_blank"><i class="fab fa-dev"></i></a>
+                <!-- Dev -->
+                <span id="confetti">🎉</span>
+            </div>
+            <p>&#169; Linda Huang 2020</p>
+        </footer>
+    </div>
+</body>
+
+<script>
+    window.onload = function() {
+        document.getElementById("qwertea1").onclick = function(evt) {
+            window.open("qwertea/qwertea1/index.html", "QwerTEA Cafe", 'menubar=1,height=800,width=400');
+            return false;
+        }
+        document.getElementById("qwertea2").onclick = function(evt) {
+            window.open("qwertea/qwertea2/index.html", "QwerTEA Cafe", 'menubar=1,height=800,width=400');
+            return false;
+        }
+    };
+</script>
+
+</html>
