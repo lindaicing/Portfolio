@@ -255,6 +255,19 @@ img#profile:hover {
     margin: auto 30px;
 }
 
+#mytitle, #myinterests {
+    font-weight: bold;
+    color: #a48cb1;
+    -webkit-transition: all 500ms cubic-bezier(0.300, 0.005, 0.300, 1.000);
+    -moz-transition: all 500ms cubic-bezier(0.300, 0.005, 0.300, 1.000);
+    -o-transition: all 500ms cubic-bezier(0.300, 0.005, 0.300, 1.000);
+    transition: all 500ms cubic-bezier(0.300, 0.005, 0.300, 1.000);
+    -webkit-transition-timing-function: cubic-bezier(0.300, 0.005, 0.300, 1.000);
+    -moz-transition-timing-function: cubic-bezier(0.300, 0.005, 0.300, 1.000);
+    -o-transition-timing-function: cubic-bezier(0.300, 0.005, 0.300, 1.000);
+    transition-timing-function: cubic-bezier(0.300, 0.005, 0.300, 1.000);
+}
+
 .coffee {
     display: flex;
     align-items: center;
