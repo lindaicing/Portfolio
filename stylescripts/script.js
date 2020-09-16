@@ -61,7 +61,7 @@ $(document).ready(function() { //JQuery code goes here
             "Fighting Climate Change",
             "Eco-Friendly Design",
             "Mental Health Awareness",
-            "Sustainabile Design",
+            "Sustainable Design",
             "Tech Innovation",
             "Zero-Waste Practices",
         ];

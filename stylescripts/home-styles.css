@@ -255,6 +255,11 @@ img#profile:hover {
     margin: auto 30px;
 }
 
+#personaltitle {
+    text-align: center;
+    margin: 0 30px;
+}
+
 #mytitle, #myinterests {
     font-weight: bold;
     color: #a48cb1;
