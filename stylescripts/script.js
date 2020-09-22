@@ -110,7 +110,8 @@ $(document).ready(function() { //JQuery code goes here
         "Statisticians in love go on a DATA",
         "When coders hear a funny joke, they GIGA",
         "A well-cut pizza is pepperoNEAT 🍕",
-        "It's almost spooky season 🎃"
+        "It's very pumpKIND of you to drop by 🎃",
+        "Drawing livestock requires good PIGments"
     ];
 
     $( "#aboutMe>span").mouseover(function() {
