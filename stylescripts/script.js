@@ -102,4 +102,19 @@ $(document).ready(function() { //JQuery code goes here
             else $("#myinterests").css({"color":darkColors[Math.floor(r4)]})
         $("#interestword").html(interestWords[Math.floor(r5)]);
     }
+    
+    // Pun Switcher ----------------------------------------------------------------------
+    var punlist = [
+        "What's an alien's favorite drink? E-Tea",
+        "Funny boxing jokes have good PUNCHlines",
+        "Statisticians in love go on a DATA",
+        "When coders hear a funny joke, they GIGA",
+        "A well-cut pizza is pepperoNEAT 🍕",
+        "It's almost spooky season 🎃"
+    ];
+
+    $( "#aboutMe>span").mouseover(function() {
+        var selectedpun = Math.random()*punlist.length;
+        $("#aboutMe>span").attr('data-content',punlist[Math.floor(selectedpun)]);
+    });
 })

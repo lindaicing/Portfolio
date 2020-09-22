@@ -29,6 +29,15 @@ body.dark .fas.fa-moon, .fas.fa-sun {
     display: inline;
 }
 
+body.dark #aboutMe>span::before { /* Puns */
+    border-bottom: 16px solid #222;
+}
+
+body.dark #aboutMe>span::after {
+    background: #222;
+    color: #c7b7d3;
+}
+
 
 /** Project DarkMode ***************************************************************************************/
 
