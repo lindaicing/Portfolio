@@ -177,11 +177,19 @@ a {
 
 p {
     line-height: 1.8em;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 b {
     font-weight: bold;
+}
+
+#htmlvalidation {
+    color: #aaa;
+}
+
+#htmlvalidation:hover {
+    color: #ad99bb;
 }
 
 

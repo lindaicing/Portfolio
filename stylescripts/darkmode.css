@@ -38,6 +38,14 @@ body.dark #aboutMe>span::after {
     color: #c7b7d3;
 }
 
+body.dark #htmlvalidation {
+    color: #82718f;
+}
+
+body.dark #htmlvalidation:hover {
+    color: #ad99bb;
+}
+
 
 /** Project DarkMode ***************************************************************************************/
 

@@ -160,6 +160,7 @@ section#aboutMe, section#aboutMe section {
 /** Footer ************************************************************************************/
 
 footer {
+    position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -271,6 +272,13 @@ p, .projectContent ul {
     margin-bottom: 0;
 }
 
+#htmlvalidation {
+    color: #aaa;
+}
+
+#htmlvalidation:hover {
+    color: #ad99bb;
+}
 
 /** Images, Media, Button ******************************************************************************/
 
