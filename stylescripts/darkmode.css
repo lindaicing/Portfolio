@@ -42,7 +42,7 @@ body.dark #htmlvalidation {
     color: #82718f;
 }
 
-body.dark #htmlvalidation:hover {
+body.dark #htmlvalidation:hover, body.dark .socials i:hover {
     color: #ad99bb;
 }
 
