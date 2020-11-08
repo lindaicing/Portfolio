@@ -111,7 +111,8 @@ $(document).ready(function() { //JQuery code goes here
         "When coders hear a funny joke, they GIGA",
         "A well-cut pizza is pepperoNEAT 🍕",
         "It's very pumpKIND of you to drop by 🎃",
-        "Drawing livestock requires good PIGments"
+        "Drawing livestock requires good PIGments",
+        "Programmers are good at swimming because they can FLOAT"
     ];
 
     $( "#aboutMe>span").mouseover(function() {
