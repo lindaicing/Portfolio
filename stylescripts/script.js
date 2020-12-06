@@ -122,13 +122,13 @@ $(document).ready(function() { //JQuery code goes here
 
 
     let aaa = "https://www.youtube.com/watch?v=vK1UQuitZe0"
-    var aaa = aaa.replace("watch?v=", "v/");
     if (aaa.includes("youtube")) {
-    $("#popupSocialURL, #popupSocialURL2").attr("src", aaa);
-    $("#popupSocialURL, #popupSocialURL2")
-        .attr("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
-    $("#popupSocialURL, #popupSocialURL2").attr("frameborder", "0");
+        var bbb = aaa.replace("watch?v=", "v/");
+        $("#popupSocialURL, #popupSocialURL2").attr("src", bbb);
+        $("#popupSocialURL, #popupSocialURL2")
+            .attr("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
+        $("#popupSocialURL, #popupSocialURL2").attr("frameborder", "0");
     } else {
-    $("#popupSocialURL, #popupSocialURL2").attr("href", aaa);
+        $("#popupSocialURL, #popupSocialURL2").attr("href", aaa);
     }
 })
