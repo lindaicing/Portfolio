@@ -175,6 +175,11 @@ a {
     text-decoration: none;
 }
 
+.projectTags a {
+    color: #cbb1de;
+    font-weight: 600;
+}
+
 p {
     line-height: 1.8em;
     margin-bottom: 16px;

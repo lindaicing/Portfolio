@@ -48,6 +48,7 @@ $(document).ready(function() { //JQuery code goes here
             "Frontend Designer", 
             "Visual Developer",
             "Website Coder",
+            "Web Designer",
             "Coffee-Fueled Coder",
         ];
         var interestWords = [
@@ -112,7 +113,8 @@ $(document).ready(function() { //JQuery code goes here
         "A well-cut pizza is pepperoNEAT 🍕",
         "It's very pumpKIND of you to drop by 🎃",
         "Drawing livestock requires good PIGments",
-        "Programmers are good at swimming because they can FLOAT"
+        "Programmers are good at swimming because they can FLOAT",
+        "Psst! Some cool stuff in progress at lindaicing.com/playground.html"
     ];
 
     $( "#aboutMe>span").mouseover(function() {
