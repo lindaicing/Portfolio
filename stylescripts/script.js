@@ -123,7 +123,7 @@ $(document).ready(function() { //JQuery code goes here
 
     let aaa = "https://www.youtube.com/watch?v=vK1UQuitZe0"
     if (aaa.includes("youtube")) {
-        var bbb = aaa.replace("watch?v=", "v/");
+        var bbb = aaa.replace("watch?v=", "embed/");
         $("#popupSocialURL, #popupSocialURL2").attr("src", bbb);
         $("#popupSocialURL, #popupSocialURL2")
             .attr("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
