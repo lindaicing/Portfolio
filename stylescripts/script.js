@@ -122,6 +122,7 @@ $(document).ready(function() { //JQuery code goes here
 
 
     let aaa = "https://www.youtube.com/watch?v=vK1UQuitZe0"
+    var aaa = aaa.replace("watch?v=", "v/");
     if (aaa.includes("youtube")) {
     $("#popupSocialURL, #popupSocialURL2").attr("src", aaa);
     $("#popupSocialURL, #popupSocialURL2")
