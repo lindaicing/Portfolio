@@ -497,4 +497,9 @@ section.webMockup {
     #uiuxresources {
         display: none;
     }
+    
+    .project header p {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
 }
