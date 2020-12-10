@@ -491,15 +491,14 @@ section.webMockup {
     nav ul {
         margin-right: 50px;
     }
+    .project header p {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
 
 @media only screen and (max-width: 472px) {
     #uiuxresources {
         display: none;
-    }
-    
-    .project header p {
-        margin-left: 30px;
-        margin-right: 30px;
     }
 }
