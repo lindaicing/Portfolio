@@ -366,6 +366,10 @@ img#profile:hover {
 }
 
 @media only screen and (max-width: 650px) {
+    #aboutMe>span::before, #aboutMe>span::after,
+    #aboutMe>span:hover::before, #aboutMe>span:hover::after {
+        display: none;
+    }
     #aboutMe>span {
         margin: 0 auto 60px auto;
     }
