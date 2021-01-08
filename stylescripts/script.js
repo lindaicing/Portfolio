@@ -120,7 +120,7 @@ $(document).ready(function() { //JQuery code goes here
         "Psst! Some cool stuff in progress at lindaicing.com/playground.html"
     ];
 
-    $( "#aboutMe>span").mouseover(function() {
+    $("#aboutMe>span").mouseover(function() {
         var selectedpun = Math.random()*punlist.length;
         $("#aboutMe>span").attr('data-content',punlist[Math.floor(selectedpun)]);
     });

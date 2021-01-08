@@ -207,7 +207,7 @@ a, .darkmode {
     /* custom */
 }
 
-a:hover, .darkmode:hover {
+a:hover, .projectContent a:hover, .darkmode:hover {
     color: #ad99bb;
     -webkit-transition: all 100ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
     -moz-transition: all 100ms cubic-bezier(1.000, 0.015, 0.750, 0.750);
@@ -261,6 +261,15 @@ p, .projectContent ul {
     font-size: 11pt;
     line-height: 18pt;
     margin-bottom: 20px;
+}
+
+.projectContent a {
+    font-weight: 600;
+    color: #392f41;
+}
+
+.projectContent .important a {
+    font-weight: 400;
 }
 
 .projectContent ul {
