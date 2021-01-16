@@ -349,6 +349,23 @@ img#profile:hover {
     margin-left: 10px;
 }
 
+/** Playground **/
+
+#playground\%20top {
+    background: #a09996;
+}
+
+#playground\%20top #htmlvalidation {
+    color: #ccc;
+}
+
+#playground\%20top.dark, #playground\%20top.dark footer {
+    background: #454545;
+}
+
+#playground\%20top.dark #htmlvalidation {
+    color: #a09996;
+}
 
 /** Queries **/
 
