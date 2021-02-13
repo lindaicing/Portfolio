@@ -315,6 +315,11 @@ img#profile:hover {
     margin: auto 30px;
 }
 
+#awards {
+    align-self: flex-start;
+    margin: 30px;
+}
+
 #personaltitle {
     text-align: center;
     margin: 0 30px;
@@ -396,5 +401,8 @@ img#profile:hover {
     }
     #aboutMe {
         flex-direction: column;
+    }
+    #aboutMe, #skills, #awards {
+        margin: auto 30px 30px 30px ;
     }
 }
