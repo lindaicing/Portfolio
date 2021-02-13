@@ -124,4 +124,7 @@ $(document).ready(function() { //JQuery code goes here
         var selectedpun = Math.random()*punlist.length;
         $("#aboutMe>span").attr('data-content',punlist[Math.floor(selectedpun)]);
     });
+
+    // Load Components --------------------------------------------------------------------
+    $(function(){ $("#navcontent").load("components/nav.html"); });
 })

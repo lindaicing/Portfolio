@@ -1,5 +1,7 @@
 html {
     scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -9,6 +11,7 @@ body {
     color: #333;
     font-size: 14px;
     font-family: 'Source Sans Pro', sans-serif;
+    overflow: overlay;
 }
 
 .maincontain {
@@ -19,6 +22,19 @@ body {
     max-width: 960px;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #3336;
+    border-radius: 50px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #fff2;
+}
 
 /** Header **/
 
@@ -358,6 +374,10 @@ img#profile:hover {
 
 #playground\%20top {
     background: #a09996;
+}
+
+#playground\%20top nav a:hover {
+    color: #fff8;
 }
 
 #playground\%20top #htmlvalidation {

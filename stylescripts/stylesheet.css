@@ -2,7 +2,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     background: #eee;
     color: #1c1b1a;
-    overflow-x: hidden;
+    overflow: overlay;
 }
 
 .project {
@@ -26,7 +26,24 @@ div {
     display: flex;
     align-items: center;
     flex-direction: column;
+    overflow-x: hidden;
 }
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #3335;
+    border-radius: 50px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #fff2;
+}
+
+/** Nav ************************************************************************************/
 
 nav {
     display: flex;
