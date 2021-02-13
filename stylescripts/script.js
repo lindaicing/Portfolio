@@ -125,6 +125,10 @@ $(document).ready(function() { //JQuery code goes here
         $("#aboutMe>span").attr('data-content',punlist[Math.floor(selectedpun)]);
     });
 
+    $("#currentYear").text(new Date().getFullYear()); // updates copyright with current year
+
     // Load Components --------------------------------------------------------------------
     $(function(){ $("#navcontent").load("components/nav.html"); });
+    $(function(){ $("#footer_links").load("components/socials.html"); });
+    $(function(){ $("#footer_project_links").load("../components/socials.html"); });
 })
