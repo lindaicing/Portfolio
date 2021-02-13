@@ -1,6 +1,10 @@
 var lightmode; //lightmode = default
 
-$(document).ready(function() { //JQuery code goes here
+$(document).ready(function() { //JQuery code goes here// Load Components --------------------------------------------------------------------
+    $(function(){ $("#navcontent").load("components/nav.html"); });
+    $(function(){ $("#footer_links").load("components/socials.html"); });
+    $(function(){ $("#footer_project_links").load("../components/socials.html"); });
+    
     setDarkmode();
     $("#confetti").click(function() { confetti.start(1000, 100); });
     
@@ -127,8 +131,5 @@ $(document).ready(function() { //JQuery code goes here
 
     $("#currentYear").text(new Date().getFullYear()); // updates copyright with current year
 
-    // Load Components --------------------------------------------------------------------
-    $(function(){ $("#navcontent").load("components/nav.html"); });
-    $(function(){ $("#footer_links").load("components/socials.html"); });
-    $(function(){ $("#footer_project_links").load("../components/socials.html"); });
+    
 })

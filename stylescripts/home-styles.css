@@ -165,6 +165,12 @@ nav a::selection, nav img::selection, img::selection, .socials::selection, #conf
 
 /** Footer **/
 
+.darkmode {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
 .darkmode, .socials, #confetti {
     cursor: pointer;
 }
