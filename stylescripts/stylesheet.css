@@ -262,6 +262,7 @@ h3 {
 
 ::selection {
     background: #d5cbdb;
+    color: #684e75;
 }
 
 nav a::selection, nav img::selection, img::selection, .socials::selection, #confetti::selection {

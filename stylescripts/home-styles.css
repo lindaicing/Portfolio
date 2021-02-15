@@ -76,7 +76,8 @@ nav ul li a:hover, nav ul li i:hover, footer i:hover {
 }
 
 ::selection {
-    background: #dbcce6;
+    background: #d5cbdb;
+    color: #684e75;
 }
 
 nav a::selection, nav img::selection, img::selection, .socials::selection, #confetti::selection {
