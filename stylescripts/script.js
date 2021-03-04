@@ -130,6 +130,4 @@ $(document).ready(function() { //JQuery code goes here// Load Components -------
     });
 
     $("#currentYear").text(new Date().getFullYear()); // updates copyright with current year
-
-    
 })
