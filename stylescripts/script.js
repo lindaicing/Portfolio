@@ -121,7 +121,7 @@ $(document).ready(function() { //JQuery code goes here// Load Components -------
         "It's very pumpKIND of you to drop by 🎃",
         "Drawing livestock requires good PIGments",
         "Programmers are good at swimming because they can FLOAT",
-        "Psst! Some cool stuff in progress at lindaicing.com/playground.html"
+        "Psst! Some cool stuff in progress at lindaicing.com/playground"
     ];
 
     $("#aboutMe>span").mouseover(function() {
