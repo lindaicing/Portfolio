@@ -2,8 +2,7 @@ var lightmode; //lightmode = default
 
 $(document).ready(function() { //JQuery code goes here// Load Components --------------------------------------------------------------------
     $(function(){ $("#navcontent").load("components/nav.html"); });
-    $(function(){ $("#navcontent_playground").load("../components/nav-playground.html"); });
-
+    $(function(){ $("#navcontent_links").load("../components/nav-links.html"); });
     $(function(){ $("#footer_links").load("components/socials.html"); });
     $(function(){ $("#footer_project_links").load("../components/socials.html"); });
     
