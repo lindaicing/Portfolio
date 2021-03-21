@@ -15,19 +15,39 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="../stylescripts/confetti.js"></script>
     <script src="../stylescripts/script.js"></script>
+
+    <style>
+        header { max-height: 280px;}
+        .project header h1 { top: 120px !important; }
+        .project header p { top: 186px !important; }
+        .linkgroup a {
+            display: block;
+            border-radius: 8px;
+            padding: 12px;
+            margin: 0 0 30px 0;
+            background: #fff8;
+        }
+        @media only screen and (max-width: 472px) {
+            #navcontent_playground ul { display: none; }
+            #navcontent_playground a { margin: 0 auto; }
+            #navcontent_playground #sublogo { margin: 0 auto; }
+        }
+    </style>
 </head>
 
-<body id="adventcalendar" class="project">
+<body id="links" class="project">
     <div>
-        <header>
-            <img src="https://images.unsplash.com/photo-1577189736198-517cfac20050?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80" alt="Header Image">
-            <h1>Advent Calendar</h1>
-            <p>Ho ho ho, merry tidings and all that holiday fluff. Coming Soon to a holiday near you!</p>
+        <header title="Image from Fang-Yuan Chuang on Unsplash">
+            <img src="https://images.unsplash.com/photo-1558906018-ff9aca108795?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2467&q=80" alt="Header Image">
+            <h1>Links</h1>
+            <p>Some featured links!</p>
         </header>
         <nav class="maincontain" id="navcontent_playground"></nav>
 
-        <div class="projectContent">
-            <iframe class="music" src="https://open.spotify.com/embed/track/2XxEQ7WcKW2N1ej6G9SxR5" width="300" height="80" style="border-radius:8px;" allow="encrypted-media"></iframe>
+        <div class="projectContent linkgroup">
+            <a target="_blank" href="https://nymag.com/strategist/article/where-to-donate-to-help-asian-communities-2021.html">Support Asian Communities</a>
+            <a target="_blank" href="https://ethicli.com/">Ethicli</a>
+            <a target="_blank" href="../index">Portfolio</a>
         </div>
 
         <footer class="maincontain">
