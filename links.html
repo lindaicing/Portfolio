@@ -26,12 +26,24 @@
             margin: 0 0 30px 0;
             background: #fff8;
         }
+        #wobble { animation: 10s wobble infinite; }
         @media only screen and (max-width: 472px) {
             #navcontent ul { display: none; }
             #navcontent a { margin: 0 auto; }
             #navcontent #sublogo { margin: 0 auto; }
         }
+        @keyframes wobble {
+            0% { transform: translateX(0%); background: #fff8; } 
+            94% { transform: translateX(0%); } 
+            95% { transform: translateX(-5%) rotate(-2.5deg); background: #fff; } 
+            96% { transform: translateX(4%) rotate(2deg); } 
+            97% { transform: translateX(-3%) rotate(-1.5deg); } 
+            98% { transform: translateX(2%) rotate(1deg); }
+            99% { transform: translateX(-1%) rotate(-0.5deg);}
+            100% { transform: translateX(0%); background: #fff8;} 
+        } 
     </style>
+    <script>$(document).ready(function() { confetti.start(1000, 100); });</script>
 </head>
 
 <body id="links" class="project">
@@ -44,7 +56,7 @@
         <nav class="maincontain" id="navcontent_links"></nav>
 
         <div class="projectContent linkgroup">
-            <a target="_blank" href="https://nymag.com/strategist/article/where-to-donate-to-help-asian-communities-2021.html">Support Asian Communities</a>
+            <a id="wobble" target="_blank" href="https://nymag.com/strategist/article/where-to-donate-to-help-asian-communities-2021.html">Support Asian Communities</a>
             <a target="_blank" href="https://ethicli.com/">Ethicli</a>
             <a target="_blank" href="index">Portfolio</a>
         </div>
@@ -52,7 +64,7 @@
         <footer class="maincontain">
             <div class="socials" id="footer_project_links"></div>
             <p>Linda Huang &#8226; <span id="currentYear"></span></p>
-            <p><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Flindaicing.com%2Fplayground%2Fadventcalendar" rel="nofollow" title="Validate as HTML5" target="_blank" id="htmlvalidation">HTML5 Validation</a></p>
+            <p><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Flindaicing.com%2Flinks" rel="nofollow" title="Validate as HTML5" target="_blank" id="htmlvalidation">HTML5 Validation</a></p>
         </footer>
     </div>
 </body>
