@@ -9,16 +9,16 @@ body.dark a {
     color: #eee;
 }
 
+body.dark a:hover {
+    color: #c7b7d3;
+}
+
 body.dark .onlink {
     color: #cbb1de;
 }
 
-body.dark #aboutcontent a, body.dark .important {
+body.dark a.important, body.dark .coffee {
     background: #222;
-}
-
-body.dark #aboutcontent .important {
-    background: none;
 }
 
 .fas.fa-moon, body.dark .fas.fa-sun {
