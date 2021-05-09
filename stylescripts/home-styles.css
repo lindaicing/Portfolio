@@ -200,8 +200,27 @@ h3 {
 }
 
 a {
-    color: #333;
+    color: #a583b8;
     text-decoration: none;
+}
+
+a:hover {
+    color: #cbb1de;
+}
+
+nav a {
+    color: #333;
+}
+
+a.important, .coffee {
+    padding: 8px;
+    background: #cbc0d360;
+    border-radius: 8px;
+    color: #684e75;
+}
+
+a.important:hover, .coffee:hover, .onlink {
+    color: #cbb1de;
 }
 
 .projectTags a {
@@ -318,25 +337,6 @@ img#profile:hover {
 
 #aboutMe>span:hover::before, #aboutMe>span:hover::after { /* Puns */
     opacity: 1;
-}
-
-a.important, .coffee {
-    padding: 8px;
-    background: #cbc0d360;
-    border-radius: 8px;
-    color: #684e75;
-}
-
-a.important:hover, .coffee:hover, .onlink {
-    color: #cbb1de;
-}
-
-a {
-    color: #a48cb1;
-}
-
-a:hover {
-    color: #cbb1de;
 }
 
 #aboutMe {
