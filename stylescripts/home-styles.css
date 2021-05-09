@@ -102,6 +102,7 @@ nav a::selection, nav img::selection, img::selection, .socials::selection, #conf
     overflow: hidden;
     border-radius: 8px;
     margin: 0 15px 30px 15px;
+    box-shadow: 1px 3px 8px #0002;
 }
 
 .projectTags {
