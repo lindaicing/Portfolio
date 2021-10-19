@@ -1,6 +1,8 @@
 var lightmode; //lightmode = default
 
 $(document).ready(function() { //JQuery code goes here// Load Components --------------------------------------------------------------------
+    $("#preloader").delay(1500).fadeOut("slow");
+    
     $(function(){ $("#navcontent").load("components/nav.html"); });
     $(function(){ $("#navcontent_links").load("../components/nav-links.html"); });
     $(function(){ $("#footer_links").load("components/socials.html"); });

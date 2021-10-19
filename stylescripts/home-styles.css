@@ -1,5 +1,6 @@
 @import "reset.css"; 
 @import "singlediv.css";
+@import "preloader.css";
 
 html {
     scroll-behavior: smooth;
