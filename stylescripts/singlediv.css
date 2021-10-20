@@ -93,6 +93,9 @@
     100% { transform: translateX(0%) scale(0.7);; } 
 }
 
+@media only screen and (max-width: 600px) {
+    #jackolantern { display: none; }
+}
 
 /** LMAO -------------------------------------------------------------------- */
 
@@ -122,7 +125,3 @@
 }
 
 #jackolantern.gotem span, #jackolantern.gotem span:after { opacity: 1; }
-
-@media only screen and (max-width: 600px) {
-    #jackolantern span { display: none; }
-}
