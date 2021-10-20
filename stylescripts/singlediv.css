@@ -3,7 +3,7 @@
 #jackolantern {
     display: block;
     position: relative;
-    margin: -2rem auto;
+    margin: -1rem auto;
     width: 18rem;
     height: 10rem;
     background: 
@@ -96,30 +96,33 @@
 
 /** LMAO -------------------------------------------------------------------- */
 
-#jackolantern span {
-    display: block;
-    position: absolute;
-    top: 2rem;
-    right: 0rem;
-    width: 0;
-    border-radius: 0 0 0 4px ;
-    border-left: 1rem solid transparent;
-    border-bottom: 1rem solid #a397aa;
-    opacity: 0;
-}
-
-#jackolantern span::before { 
-    content: "Got 'em good";
-    position: absolute;
-    bottom: -1rem;
-    padding: 10px;
-    width: 7.5rem;
-    border-radius: 10px 10px 10px 0;
-    background: #a397aa;
-    color: #fff;
-    font-size: 1.5em;
-}
-
-#jackolantern.gotem span, #jackolantern.gotem span:after {
-    opacity: 1;
+@media only screen and (min-width: 960px) {
+    #jackolantern span {
+        display: block;
+        position: absolute;
+        top: 2rem;
+        right: 0rem;
+        width: 0;
+        border-radius: 0 0 0 4px ;
+        border-left: 1rem solid transparent;
+        border-bottom: 1rem solid #a397aa;
+        opacity: 0;
+    }
+    
+    #jackolantern span::before { 
+        content: "Got 'em good";
+        position: absolute;
+        bottom: -1rem;
+        left: -2px;
+        padding: 10px;
+        width: 7.5rem;
+        border-radius: 10px 10px 10px 0;
+        background: #a397aa;
+        color: #fff;
+        font-size: 1.5em;
+    }
+    
+    #jackolantern.gotem span, #jackolantern.gotem span:after {
+        opacity: 1;
+    }
 }
