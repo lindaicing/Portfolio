@@ -8,25 +8,30 @@ $(document).ready(function() { //JQuery code goes here// Load Components -------
     $(function(){ $("#footer_links").load("components/socials.html"); });
     $(function(){ $("#footer_project_links").load("../components/socials.html"); });
     
+    getDarkMode();
     setDarkmode();
+
     $("#confetti").click(function() { confetti.start(1000, 100); });
     
     function setDarkmode() {
-        lightmode = sessionStorage.getItem("darkmode");
         $(".darkmode").click(function() { //Darkmode
-            lightmode = !lightmode;
-            if (lightmode) {
-                $("body").removeClass("dark")
-                $("#logo").attr("src", "resources/logo-black.png");
-                $("#sublogo").attr("src", "../resources/logo-black.png");
-            } else {
-                $("body").addClass("dark")
-                $("#logo").attr("src", "resources/logo-white.png");
-                $("#sublogo").attr("src", "../resources/logo-white.png");
-            }
+            blink();
+            $("body").toggleClass("dark")
+            getDarkMode();
             projectScrolled();
             sessionStorage.setItem("darkmode", $("body").hasClass("dark"));
+            lightmode = $("body").hasClass("dark");
         });
+    }
+
+    function getDarkMode() {
+        if ($("body").hasClass("dark")) {
+            $("#logo").attr("src", "resources/logo-white.png");
+            $("#sublogo").attr("src", "../resources/logo-black.png");
+        } else {
+            $("#logo").attr("src", "resources/logo-black.png");
+            $("#sublogo").attr("src", "../resources/logo-white.png");
+        }
     }
 
     $(window).scroll(function() { projectScrolled(); });
@@ -82,9 +87,6 @@ $(document).ready(function() { //JQuery code goes here// Load Components -------
             "Zero-Waste Practices",
         ];
         var lightColors = [
-            "#BEB7DF",
-            "#CCC7E5",
-            "#DAD6EA",
             "#E8E5EF",
             "#F6F4F4",
         ];

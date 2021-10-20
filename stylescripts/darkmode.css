@@ -46,6 +46,19 @@ body.dark #htmlvalidation:hover, body.dark .socials i:hover {
     color: #ad99bb;
 }
 
+body.dark #navcontent {
+    background: #282828ee;
+    box-shadow: 1px 3px 8px #0005; 
+}
+
+body.dark #personaltitle {
+    font-weight: bold;
+    color: #b3aaaa;
+}
+
+body.dark #htmlvalidation {
+    color: #c7b7d3;
+}
 
 /** Project DarkMode ***************************************************************************************/
 

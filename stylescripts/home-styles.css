@@ -250,7 +250,7 @@ b {
 
 #htmlvalidation {
     font-size: 12px;
-    color: #aaa;
+    color: #684e75;
 }
 
 #htmlvalidation:hover {
@@ -368,11 +368,12 @@ img#profile:hover {
 #personaltitle {
     text-align: center;
     margin: 0 30px;
+    color: #555;
 }
 
 #mytitle, #myinterests {
     font-weight: bold;
-    color: #a48cb1;
+    color: #826f8d;
     -webkit-transition: all 500ms cubic-bezier(0.300, 0.005, 0.300, 1.000);
     -moz-transition: all 500ms cubic-bezier(0.300, 0.005, 0.300, 1.000);
     -o-transition: all 500ms cubic-bezier(0.300, 0.005, 0.300, 1.000);
