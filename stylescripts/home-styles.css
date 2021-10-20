@@ -51,7 +51,7 @@ header p {
     margin-right: 30px;
 }
 
-/** Nav **/
+/* Nav ------------------------------------------------------------------------------------- */
 
 #navcontent {
     background: #fffe;
@@ -97,7 +97,7 @@ nav a::selection, nav img::selection, img::selection, .socials::selection, #conf
 }
 
 
-/** Project **/
+/* Project ------------------------------------------------------------------------------------- */
 
 #projectSec {
     display: flex;
@@ -177,7 +177,7 @@ nav a::selection, nav img::selection, img::selection, .socials::selection, #conf
 }
 
 
-/** Footer **/
+/* Footer ------------------------------------------------------------------------------------- */
 
 .darkmode {
     position: fixed;
@@ -198,7 +198,7 @@ footer.maincontain {
 }
 
 
-/** Typography **/
+/* Typography ------------------------------------------------------------------------------------- */
 
 h1 {
     font-size: 2em;
@@ -258,7 +258,7 @@ b {
 }
 
 
-/** Images **/
+/* Images ------------------------------------------------------------------------------------- */
 
 #logo {
     height: 30px;
@@ -280,7 +280,7 @@ b {
 }
 
 
-/** About **/
+/* About ------------------------------------------------------------------------------------- */
 
 #aboutMe>span {
     position: relative;
@@ -384,7 +384,7 @@ img#profile:hover {
     transition-timing-function: cubic-bezier(0.300, 0.005, 0.300, 1.000);
 }
 
-/** Playground **/
+/* Playground ------------------------------------------------------------------------------------- */
 
 #playground\%20top {
     background: #a09996;
@@ -406,7 +406,7 @@ img#profile:hover {
     color: #a09996;
 }
 
-/** Queries **/
+/* Queries ------------------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 960px) {
     #projectSec {

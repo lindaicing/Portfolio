@@ -10,8 +10,6 @@ $(document).ready(function() { //JQuery code goes here// Load Components -------
     
     getDarkMode();
     setDarkmode();
-
-    $("#confetti").click(function() { confetti.start(1000, 100); });
     
     function setDarkmode() {
         $(".darkmode").click(function() { //Darkmode
@@ -131,4 +129,8 @@ $(document).ready(function() { //JQuery code goes here// Load Components -------
     });
 
     $("#currentYear").text(new Date().getFullYear()); // updates copyright with current year
+
+    // Other Fun Stuff ----------------------------------------------------------------------
+    $("#confetti").click(function() { confetti.start(1000, 100); });
+    $("#jackolantern").click(function() { $(this).addClass("gotem") });
 })
