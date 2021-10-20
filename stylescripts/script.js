@@ -55,7 +55,7 @@ $(document).ready(function() { //JQuery code goes here// Load Components -------
         var titleArray = [
             "Creative",
             "Experience Maker",
-            "Frontend Designer", 
+            "Designer", 
             "Visual Developer",
             "Website Coder",
             "Web Designer",
@@ -78,26 +78,22 @@ $(document).ready(function() { //JQuery code goes here// Load Components -------
             "Human-Centered Design",
             "Mental Health Awareness",
             "Sustainable Design",
-            "Tech Innovation",
+            "Environmental Innovation",
             "Zero-Waste Practices",
         ];
         var lightColors = [
-            "rgb(99, 75, 102)",
-            "rgb(121, 97, 127)",
-            "rgb(142, 118, 152)",
-            "rgb(164, 140, 177)",
-            "rgb(185, 161, 202)",
-            "rgb(203, 177, 222)",
+            "#BEB7DF",
+            "#CCC7E5",
+            "#DAD6EA",
+            "#E8E5EF",
+            "#F6F4F4",
         ];
         var darkColors = [
-            "rgb(164, 140, 177)",
-            "rgb(185, 161, 202)",
-            "rgb(203, 177, 222)",
-            "rgb(197, 178, 211)",
-            "rgb(207, 191, 219)",
-            "rgb(215, 202, 225)",
-            "rgb(249, 206, 208)",
-            "rgb(236, 115, 115)",
+            "#310A31",
+            "#55365D",
+            "#674C73",
+            "#786188",
+            "#9B8CB4"
         ];
         var r1 = Math.random()*titleArray.length;
         var r2 = Math.random()*lightColors.length;
