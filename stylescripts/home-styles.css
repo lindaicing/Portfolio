@@ -215,14 +215,14 @@ nav a {
     color: #333;
 }
 
-a.important, .coffee {
+a.important {
     padding: 8px;
     background: #cbc0d360;
     border-radius: 8px;
     color: #684e75;
 }
 
-a.important:hover, .coffee:hover, .onlink {
+a.important:hover, .onlink {
     color: #cbb1de;
 }
 
@@ -373,22 +373,6 @@ img#profile:hover {
     -moz-transition-timing-function: cubic-bezier(0.300, 0.005, 0.300, 1.000);
     -o-transition-timing-function: cubic-bezier(0.300, 0.005, 0.300, 1.000);
     transition-timing-function: cubic-bezier(0.300, 0.005, 0.300, 1.000);
-}
-
-.coffee {
-    display: flex;
-    align-items: center;
-    width: 220px;
-    border-radius: 8px;
-}
-
-.coffee img {
-    width: 20px;
-    margin-left: 4px;
-}
-
-.coffee span {
-    margin-left: 10px;
 }
 
 /** Playground **/
