@@ -377,6 +377,10 @@ img#profile:hover {
     color: #555;
 }
 
+@media only screen and (max-width: 600px) {
+    #personaltitle { display: none; }
+}
+
 #mytitle, #myinterests {
     font-weight: bold;
     color: #826f8d;
