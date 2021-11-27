@@ -11,7 +11,7 @@ html {
 body {
     margin: auto;
     font-family: sans-serif;
-    background: #eee;
+    background: #efefef;
     color: #333;
     font-size: 14px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -106,7 +106,7 @@ nav a::selection, nav img::selection, img::selection, .socials::selection, #conf
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    color: #eee;
+    color: #efefef;
 }
 
 .maincontain article {
@@ -278,6 +278,7 @@ b {
 
 .imgContainer img {
     width: 100%;
+    height: auto;
     display: block;
     margin: auto;
 }
@@ -376,6 +377,8 @@ img#profile:hover {
     padding: 0 1rem;
     color: #555;
     line-height: 1.5em;
+    line-height: 1.8em;
+    margin-bottom: 16px;
 }
 
 @media only screen and (max-width: 600px) {
